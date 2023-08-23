@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [NopCommerce]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Run On Firefox(failed)">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="com.nopcommerce.account.Level_07_Page_Generator_Manager_3">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="User_03_Register_Invalid_Password"/>
+          <include name="User_01_Register_Empty_Data"/>
+          <include name="User_05_Register_Success"/>
+          <include name="User_06_Login_Success"/>
+          <include name="afterClass"/>
+          <include name="User_04_Register_Inccorect_Confirm_Password"/>
+          <include name="User_02_Register_Invalid_Email"/>
+        </methods>
+      </class> <!-- com.nopcommerce.account.Level_07_Page_Generator_Manager_3 -->
+    </classes>
+  </test> <!-- Run On Firefox(failed) -->
+  <test thread-count="5" name="Run On Chrome(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.nopcommerce.account.Level_07_Page_Generator_Manager_3">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="User_03_Register_Invalid_Password"/>
+          <include name="User_01_Register_Empty_Data"/>
+          <include name="User_05_Register_Success"/>
+          <include name="User_06_Login_Success"/>
+          <include name="afterClass"/>
+          <include name="User_04_Register_Inccorect_Confirm_Password"/>
+          <include name="User_02_Register_Invalid_Email"/>
+        </methods>
+      </class> <!-- com.nopcommerce.account.Level_07_Page_Generator_Manager_3 -->
+    </classes>
+  </test> <!-- Run On Chrome(failed) -->
+  <test thread-count="5" name="Run On Edge(failed)">
+    <parameter name="browser" value="Edge"/>
+    <classes>
+      <class name="com.nopcommerce.account.Level_07_Page_Generator_Manager_3">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="User_03_Register_Invalid_Password"/>
+          <include name="User_01_Register_Empty_Data"/>
+          <include name="User_05_Register_Success"/>
+          <include name="User_06_Login_Success"/>
+          <include name="afterClass"/>
+          <include name="User_04_Register_Inccorect_Confirm_Password"/>
+          <include name="User_02_Register_Invalid_Email"/>
+        </methods>
+      </class> <!-- com.nopcommerce.account.Level_07_Page_Generator_Manager_3 -->
+    </classes>
+  </test> <!-- Run On Edge(failed) -->
+</suite> <!-- Failed suite [NopCommerce] -->

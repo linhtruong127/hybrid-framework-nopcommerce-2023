@@ -1,8 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite parallel="false" name="NopCommerce">
-  <test name="Run On Firefox">
-    <classes>
-      <class name="com.nopcommerce.account.Account_01_Register"/>
-    </classes>
-  </test> <!-- Test -->
-</suite> <!-- Suite -->
+	<test name="Run On Firefox">
+		<parameter name="browser" value="firefox" />
+		<classes>
+			<class name="com.nopcommerce.account.Level_07_Page_Generator_Manager_3" />
+		</classes>
+	</test>
+
+<test name="Run On Chrome">
+	<parameter name="browser" value="chrome" />
+	<classes>
+		<class name="com.nopcommerce.account.Level_07_Page_Generator_Manager_3" />
+	</classes>
+</test>
+
+<test name="Run On Edge">
+	<parameter name="browser" value="Edge" />
+	<classes>
+		<class name="com.nopcommerce.account.Level_07_Page_Generator_Manager_3" />
+	</classes>
+</test> 
+</suite> 
