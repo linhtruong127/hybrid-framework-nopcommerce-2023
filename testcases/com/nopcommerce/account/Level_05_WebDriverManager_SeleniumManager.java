@@ -8,17 +8,17 @@ import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 import commons.BaseTest;
-import pageObjects.CustomerPageObject;
-import pageObjects.HomePageObject;
-import pageObjects.LoginPageObject;
-import pageObjects.RegisterPageObject;
+import pageObjects.user.CustomerPageObject;
+import pageObjects.user.HomePageObject;
+import pageObjects.user.UserLoginPageObject;
+import pageObjects.user.RegisterPageObject;
 
 public class Level_05_WebDriverManager_SeleniumManager extends BaseTest {
 	private WebDriver driver;
 
 	private HomePageObject homePage;
 	private RegisterPageObject registerPage;
-	private LoginPageObject loginPage;
+	private UserLoginPageObject loginPage;
 	private CustomerPageObject customerPage;
 	private String emailAddress = getEmailRandom();
 
@@ -131,11 +131,11 @@ public class Level_05_WebDriverManager_SeleniumManager extends BaseTest {
 
 		homePage.clickToLoginLink();
 
-		loginPage = new LoginPageObject(driver);
+		loginPage = new UserLoginPageObject(driver);
 
 		loginPage.enterToEmailTextbox(emailAddress);
 		loginPage.enterToPasswordTextbox("123456");
-		loginPage.clickToLoginButton();
+		loginPage.clickToUserLoginButton();
 
 		homePage = new HomePageObject(driver);
 		homePage.clickToMyaccountLink();
