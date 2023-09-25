@@ -1,24 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite parallel="false" name="NopCommerce">
-	<test name="Run On Firefox">
-		<parameter name="browser" value="firefox" />
+<!DOCTYPE suite SYSTEM "testng-1.0.dtd">
+<suite parallel="none" name="NopCommerce">
+	
+	<listeners>
+		<listener class-name="commons.MethodListener" />
+		<listener class-name="reportConfig.AllureTestListener" />
+<!-- 	<listener class-name="org.uncommons.reportng.HTMLReporter" />
+		<listener class-name="org.uncommons.reportng.JUnitXMLReporter" /> -->
+		
+		
+	</listeners>
+	
+	<test name="Run On Chrome">
+		<parameter name="browser" value="chrome" />
 		<classes>
-			<class name="com.nopcommerce.account.Level_09_Page_Navigation" />
+			<class name="com.nopcommerce.account.Level_19_AllureReport" />
 		</classes>
 	</test>
 
-<test name="Run On Chrome">
+<!--<test name="Run On Chrome">
 	<parameter name="browser" value="chrome" />
 	<classes>
-		<class name="com.nopcommerce.account.Level_09_Page_Navigation" />
+		<class name="com.nopcommerce.account.Level_17_ReportNG" />
 	</classes>
 </test>
 
 <test name="Run On Edge">
 	<parameter name="browser" value="Edge" />
 	<classes>
-		<class name="com.nopcommerce.account.Level_09_Page_Navigation" />
+		<class name="com.nopcommerce.account.Level_15_Assert_Verify" />
 	</classes>
-</test> 
+</test>  -->
 </suite> 

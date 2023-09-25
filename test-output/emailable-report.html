@@ -1,5 +1,5 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "https://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
 <title>TestNG Report</title>
@@ -7,14 +7,16 @@
 </head>
 <body>
 <table>
-<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
-<tr><th colspan="7">NopCommerce</th></tr>
-<tr><td><a href="#t0">Run On Firefox</a></td><td class="num">3</td><td class="num">0</td><td class="num">0</td><td class="num">19,887</td><td></td><td></td></tr>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="8">NopCommerce</th></tr>
+<tr><td><a href="#t0">Run On Chrome</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">20,173</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">NopCommerce</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Run On Firefox &#8212; passed</th></tr><tr class="passedeven"><td rowspan="3">com.nopcommerce.account.Level_12_Dynamic_Locator_Rest_Parameter</td><td><a href="#m0">User_01_Register_Success</a></td><td rowspan="1">1693461193630</td><td rowspan="1">2993</td></tr><tr class="passedeven"><td><a href="#m1">User_02_Login_Success</a></td><td rowspan="1">1693461196626</td><td rowspan="1">2454</td></tr><tr class="passedeven"><td><a href="#m2">User_03_Switch_Page_With_Dynamic_Locator_Rest_Param</a></td><td rowspan="1">1693461199083</td><td rowspan="1">4859</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">NopCommerce</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Run On Chrome &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.nopcommerce.account.Level_19_AllureReport</td><td><a href="#m0">User_01_Register_Validate</a></td><td rowspan="1">1695631819286</td><td rowspan="1">678</td></tr><tr><th colspan="4">Run On Chrome &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">com.nopcommerce.account.Level_19_AllureReport</td><td><a href="#m1">User_02_Register_Success</a></td><td rowspan="1">1695631820874</td><td rowspan="1">4186</td></tr></tbody>
 </table>
-<h2>Run On Firefox</h2><h3 id="m0">com.nopcommerce.account.Level_12_Dynamic_Locator_Rest_Parameter#User_01_Register_Success</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">com.nopcommerce.account.Level_12_Dynamic_Locator_Rest_Parameter#User_02_Login_Success</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m2">com.nopcommerce.account.Level_12_Dynamic_Locator_Rest_Parameter#User_03_Switch_Page_With_Dynamic_Locator_Rest_Param</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Run On Chrome</h2><h3 id="m0">com.nopcommerce.account.Level_19_AllureReport#User_01_Register_Validate</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [false] but found [true]
+	at com.nopcommerce.account.Level_19_AllureReport.User_01_Register_Validate(Level_19_AllureReport.java:51)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 31 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">com.nopcommerce.account.Level_19_AllureReport#User_02_Register_Success</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

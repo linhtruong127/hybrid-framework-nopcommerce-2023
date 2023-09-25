@@ -18,6 +18,8 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
+import pageUIs.user.BasePageUI;
+
 public class BasePage {
 
 	public static BasePage getBasePage() {
@@ -76,7 +78,7 @@ public class BasePage {
 
 	}
 
-	public void senkeyToAlert(WebDriver driver, String keyToSend) {
+	public void sendkeyToAlert(WebDriver driver, String keyToSend) {
 		waitForAlertPresence(driver).sendKeys(keyToSend);
 
 	}
@@ -159,7 +161,6 @@ public class BasePage {
 		} else {
 			throw new RuntimeException("Locator is invalid");
 		}
-		System.out.println(by);
 		return by;
 	}
 
@@ -176,8 +177,16 @@ public class BasePage {
 		return driver.findElements(getByLocator(locator));
 	}
 
+	public List<WebElement> getListWebElement(WebDriver driver, String locator, String... dynamicValues) {
+		return driver.findElements(getByLocator(getDynamicLocator(locator, dynamicValues)));
+	}
+
 	public void clickToElement(WebDriver driver, String locator) {
 		getWebElement(driver, locator).click();
+	}
+
+	public void clickToElement(WebDriver driver, WebElement element) {
+		element.click();
 	}
 
 	public void clickToElement(WebDriver driver, String locator, String... dynamicValues) {
@@ -204,6 +213,10 @@ public class BasePage {
 
 	public void selectItemInDefaultDropdown(WebDriver driver, String locator, String itemValue) {
 		new Select(getWebElement(driver, locator)).selectByVisibleText(itemValue);
+	}
+
+	public void selectItemInDefaultDropdown(WebDriver driver, String locator, String itemValue, String... dynamicValues) {
+		new Select(getWebElement(driver, getDynamicLocator(locator, dynamicValues))).selectByVisibleText(itemValue);
 	}
 
 	public String getFirstSelectedTextInDefaultDropdown(WebDriver driver, String locator) {
@@ -246,6 +259,10 @@ public class BasePage {
 		return getListWebElement(driver, locator).size();
 	}
 
+	public int getListElementSize(WebDriver driver, String locator, String... dynamicValues) {
+		return getListWebElement(driver, getDynamicLocator(locator, dynamicValues)).size();
+	}
+
 	/**
 	 * Apply for checkbox and radio button
 	 * 
@@ -255,6 +272,12 @@ public class BasePage {
 	public void checkToElement(WebDriver driver, String locator) {
 		if (!getWebElement(driver, locator).isSelected()) {
 			getWebElement(driver, locator).click();
+		}
+	}
+
+	public void checkToElement(WebDriver driver, String locator, String... dynamicValues) {
+		if (!getWebElement(driver, getDynamicLocator(locator, dynamicValues)).isSelected()) {
+			getWebElement(driver, getDynamicLocator(locator, dynamicValues)).click();
 		}
 	}
 
@@ -280,6 +303,10 @@ public class BasePage {
 
 	public boolean isElementSelected(WebDriver driver, String locator) {
 		return getWebElement(driver, locator).isSelected();
+	}
+
+	public boolean isElementSelected(WebDriver driver, String locator, String... dynamicValues) {
+		return getWebElement(driver, getDynamicLocator(locator, dynamicValues)).isSelected();
 	}
 
 	public boolean isElementEnabled(WebDriver driver, String locator) {
@@ -413,6 +440,11 @@ public class BasePage {
 
 	}
 
+	public void waitForElementClickable(WebDriver driver, WebElement element) {
+		new WebDriverWait(driver, Duration.ofSeconds(30)).until(ExpectedConditions.elementToBeClickable(element));
+
+	}
+
 	public void waitForElementClickable(WebDriver driver, String locator, String... dynamicValues) {
 		new WebDriverWait(driver, Duration.ofSeconds(longTimeout)).until(ExpectedConditions.elementToBeClickable(getWebElement(driver, getDynamicLocator(locator, dynamicValues))));
 
@@ -434,6 +466,21 @@ public class BasePage {
 			}
 		};
 		return explicitWait.until(jQueryLoad) && explicitWait.until(jsLoad);
+	}
+
+	public void uploadMultipleFiles(WebDriver driver, String... fileNames) {
+
+		String filePath = GlobalConstants.UPLOAD_PATH;
+
+		String fullFileName = "";
+
+		for (String file : fileNames) {
+			fullFileName = fullFileName + filePath + file + "\n";
+		}
+
+		fullFileName = fullFileName.trim();
+		getWebElement(driver, BasePageUI.UPLOAD_BUTTON).sendKeys(fullFileName);
+
 	}
 
 	private long longTimeout = GlobalConstants.LONG_TIMEOUT;
