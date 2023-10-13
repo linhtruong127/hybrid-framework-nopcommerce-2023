@@ -18,14 +18,13 @@ public class Level_10_Switch_Page_Url_Techpanda extends BaseTest {
 	private pageTechpandaObject.user.UserLoginPageObject userLoginPage;
 	private pageTechpandaObjects.admin.AdminLoginPageObject adminLoginPage;
 	private pageTechpandaObjects.admin.AdminDashboardPageObject adminDashboardPage;
-	private String userUrl, adminUrl;
+	private String adminUrl;
 	private String emailAddress = getEmailRandom();
 
 	@Parameters({ "browser", "userUrl", "adminUrl" })
 	@BeforeClass
 	public void beforeClass(String browserName, String userUrl, String adminUrl) {
 		driver = getBrowserDriver(browserName, userUrl);
-		this.userUrl = userUrl;
 		this.adminUrl = adminUrl;
 		homePage = PageGeneratorManager.getHomePage(driver);
 	}

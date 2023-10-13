@@ -7,14 +7,19 @@ import pageObjects.admin.AdminLoginPageObject;
 import pageObjects.user.AddressesPageObject;
 import pageObjects.user.BackInStockSubscriptionsPageObject;
 import pageObjects.user.ChangePasswordPageObject;
+import pageObjects.user.CompareListPageObject;
 import pageObjects.user.CustomerPageObject;
 import pageObjects.user.DownloadableProductsPageObject;
 import pageObjects.user.HomePageObject;
 import pageObjects.user.UserLoginPageObject;
+import pageObjects.user.WishlistPageObject;
 import pageObjects.user.MyProductReviewsPageObject;
 import pageObjects.user.OrdersPageObject;
+import pageObjects.user.RecentlyViewPageObject;
 import pageObjects.user.RegisterPageObject;
 import pageObjects.user.RewardPointsPageObject;
+import pageObjects.user.SearchPageObject;
+import pageObjects.user.ShoppingCartPageObject;
 
 public class PageGeneratorManager {
 
@@ -71,5 +76,27 @@ public class PageGeneratorManager {
 	}
 	public static AdminDashboardPageObject getAdminDashboardPage(WebDriver driver) {
 		return new AdminDashboardPageObject(driver);
+	}
+
+	public static SearchPageObject getSearchPage(WebDriver driver) {
+		return new SearchPageObject(driver);
+	}
+
+	public static WishlistPageObject getWishlistPage(WebDriver driver) {
+		return new WishlistPageObject(driver);
+	}
+	public static ShoppingCartPageObject getShoppingCartPage(WebDriver driver) {
+		return new ShoppingCartPageObject(driver);
+	}
+	public static CompareListPageObject getComparelistPage(WebDriver driver) {
+		return new CompareListPageObject(driver);
+	}
+
+	public static RecentlyViewPageObject getRecentlyViewPage(WebDriver driver) {
+		return new RecentlyViewPageObject(driver);
+	}
+
+	public static OrdersPageObject getOdersPage(WebDriver driver) {
+		return new OrdersPageObject(driver);
 	}
 }

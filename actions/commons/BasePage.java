@@ -293,8 +293,18 @@ public class BasePage {
 		}
 	}
 
+	public void unCheckToElement(WebDriver driver, String locator, String... dynamicValues) {
+		if (!getWebElement(driver, getDynamicLocator(locator, dynamicValues)).isSelected()) {
+			getWebElement(driver, getDynamicLocator(locator, dynamicValues)).click();
+		}
+	}
+
 	public boolean isElementDisplayed(WebDriver driver, String locator) {
 		return getWebElement(driver, locator).isDisplayed();
+	}
+
+	public boolean isElementDisplayed(WebDriver driver, WebElement element) {
+		return element.isDisplayed();
 	}
 
 	public boolean isElementDisplayed(WebDriver driver, String locator, String... dynamicValues) {
@@ -407,6 +417,11 @@ public class BasePage {
 
 	public void waitForElementInvisible(WebDriver driver, String locator) {
 		new WebDriverWait(driver, Duration.ofSeconds(longTimeout)).until(ExpectedConditions.invisibilityOfElementLocated(getByLocator(locator)));
+
+	}
+
+	public void waitForElementInvisible(WebDriver driver, By element) {
+		new WebDriverWait(driver, Duration.ofSeconds(longTimeout)).until(ExpectedConditions.invisibilityOfElementLocated(element));
 
 	}
 

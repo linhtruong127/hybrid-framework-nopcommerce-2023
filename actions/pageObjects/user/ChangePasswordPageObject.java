@@ -2,7 +2,7 @@ package pageObjects.user;
 
 import org.openqa.selenium.WebDriver;
 
-import pageUIs.user.CustomerPageUI;
+import pageUIs.user.ChangePasswordPageUI;
 
 public class ChangePasswordPageObject extends MyAccountSideBarPageObject {
 	WebDriver driver;
@@ -12,21 +12,44 @@ public class ChangePasswordPageObject extends MyAccountSideBarPageObject {
 		this.driver = driver;
 	}
 
-	public String getFirstNameAttributeValue() {
-		waitForElementVisible(driver, CustomerPageUI.FIRSTNAME_TEXTBOX);
-		return getElementAttribute(driver, CustomerPageUI.FIRSTNAME_TEXTBOX, "value");
+	public void inputOldPassword(String oldPass) {
+		waitForElementClickable(driver, ChangePasswordPageUI.OLD_PASSWORD);
+		sendkeyToElement(driver, ChangePasswordPageUI.OLD_PASSWORD, oldPass);
 
 	}
 
-	public String getLastNameAttributeValue() {
-		waitForElementVisible(driver, CustomerPageUI.LASTNAME_TEXTBOX);
-		return getElementAttribute(driver, CustomerPageUI.LASTNAME_TEXTBOX, "value");
+	public void inputNewPassword(String newPass) {
+		waitForElementClickable(driver, ChangePasswordPageUI.NEW_PASSWORD);
+		sendkeyToElement(driver, ChangePasswordPageUI.NEW_PASSWORD, newPass);
 
 	}
 
-	public String getEmailAttributeValue() {
-		waitForElementVisible(driver, CustomerPageUI.EMAIL_TEXTBOX);
-		return getElementAttribute(driver, CustomerPageUI.EMAIL_TEXTBOX, "value");
+	public void inputConfirmNewPassword(String confirmNewPass) {
+		waitForElementClickable(driver, ChangePasswordPageUI.CONFIRM_NEW_PASSWORD);
+		sendkeyToElement(driver, ChangePasswordPageUI.CONFIRM_NEW_PASSWORD, confirmNewPass);
+
+	}
+
+	public void clickChangePasswordButton(String string) {
+		waitForElementClickable(driver, ChangePasswordPageUI.CHANGE_PASSWORD_BUTTON);
+		clickToElement(driver, ChangePasswordPageUI.CHANGE_PASSWORD_BUTTON);
+
+	}
+
+	public String getChangePasswordSuccessText() {
+		waitForElementVisible(driver, ChangePasswordPageUI.CHANGE_PASSWORD_SUCCESS);
+		return getElementText(driver, ChangePasswordPageUI.CHANGE_PASSWORD_SUCCESS);
+	}
+
+	public void closeChangePasswordText() {
+		waitForElementVisible(driver, ChangePasswordPageUI.CLOSE_SUCCESS_TEXT);
+		clickToElement(driver, ChangePasswordPageUI.CLOSE_SUCCESS_TEXT);
+
+	}
+
+	public void clickToLogOutLink() {
+		waitForElementClickable(driver, ChangePasswordPageUI.LOGOUT_LINK);
+		clickToElement(driver, ChangePasswordPageUI.LOGOUT_LINK);
 
 	}
 

@@ -14,17 +14,14 @@ import pageObjects.user.HomePageObject;
 import pageObjects.user.RegisterPageObject;
 import pageObjects.user.UserLoginPageObject;
 
-public class Level_08_Switch_Page extends BaseTest {
+public class NopCommerce_Login extends BaseTest {
 	private WebDriver driver;
 
 	private HomePageObject homePage;
-	private RegisterPageObject registerPage;
 	private UserLoginPageObject loginPage;
 	private CustomerPageObject customerPage;
-//	private AddressesPageObject addressesPage;
-//	private OrdersPageObject ordersPage;
-//	private RewardPointsPageObject rewardPointsPage;
-//	private ChangePasswordPageObject changePasswordPage;
+	private RegisterPageObject registerPage;
+
 	private String emailAddress = getEmailRandom();
 
 	@Parameters("browser")
@@ -36,7 +33,7 @@ public class Level_08_Switch_Page extends BaseTest {
 	}
 
 	@Test
-	public void User_01_Register_Success() {
+	public void Login_00_Register__Success() {
 		registerPage = homePage.clickToRegisterLink();
 
 		registerPage.inputFirstNameToTextbox("Lisa");
@@ -52,13 +49,58 @@ public class Level_08_Switch_Page extends BaseTest {
 	}
 
 	@Test
-	public void User_02_Login_Success() {
-		loginPage = homePage.clickToLoginLink();
+	public void Login_01_Empty_Data() {
 
+		loginPage = homePage.clickToLoginLink();
+		loginPage.clickToUserLoginButton();
+
+		Assert.assertEquals(loginPage.getEmailErrorText(), "Please enter your email");
+
+	}
+
+	@Test
+	public void Login_02_Invalid_Email() {
+		loginPage = homePage.clickToLoginLink();
+		loginPage.loginToUser("lisa@truong@gmail.com", "123456");
+
+		Assert.assertEquals(loginPage.getEmailErrorText(), "Wrong email");
+
+	}
+
+	@Test
+	public void Login_03_Unregistered_Email() {
+		loginPage = homePage.clickToLoginLink();
+		loginPage.loginToUser("lisatruong@gmail.com", "123456");
+
+		Assert.assertEquals(loginPage.getLoginErrorText(), "Login was unsuccessful. Please correct the errors and try again.\n" + "No customer account found");
+
+	}
+
+	@Test
+	public void Login_04_Valid_Email_And_No_Password() {
+		loginPage = homePage.clickToLoginLink();
+		loginPage.loginToUser(emailAddress, "");
+
+		Assert.assertEquals(loginPage.getLoginErrorText(), "Login was unsuccessful. Please correct the errors and try again.\n" + "The credentials provided are incorrect");
+	}
+
+	@Test
+	public void Login_05_Valid_Email_And_Wrong_Password() {
+		loginPage = homePage.clickToLoginLink();
+		loginPage.loginToUser(emailAddress, "123");
+
+		Assert.assertEquals(loginPage.getLoginErrorText(), "Login was unsuccessful. Please correct the errors and try again.\n" + "The credentials provided are incorrect");
+	}
+
+	@Test
+	public void Login_06_Valid_Email_And_Valid_Password() {
+		loginPage = homePage.clickToLoginLink();
 		loginPage.enterToEmailTextbox(emailAddress);
 		loginPage.enterToPasswordTextbox("123456");
 
 		homePage = loginPage.clickToUserLoginButton();
+
+		homePage.refreshCurrentPage(driver);
 
 		customerPage = homePage.clickToMyaccountLink();
 
@@ -66,27 +108,6 @@ public class Level_08_Switch_Page extends BaseTest {
 		Assert.assertEquals(customerPage.getLastNameAttributeValue(), "Truong");
 		Assert.assertEquals(customerPage.getEmailAttributeValue(), emailAddress);
 
-	}
-
-	@Test
-	public void User_03_Switch_Page() {
-		//Customer Page to Addresses Page
-		//addressesPage = customerPage.openAddressesPage(driver);
-
-		// Addresses Page to Orders Page
-		//ordersPage = addressesPage.openOrdersPage(driver);
-
-		// Orders Page to Customer Page
-		//customerPage = ordersPage.openCustomerInfoPage(driver);
-
-		// Customer Page to Reward Points Page
-		//rewardPointsPage = customerPage.openRewardPointsPage(driver);
-		
-		// Reward Points Page to Change password Page
-		//changePasswordPage = rewardPointsPage.openChangePasswordPage(driver);
-		
-		// Change password Page to Customer Page
-		//customerPage = changePasswordPage.openCustomerInfoPage(driver);
 	}
 
 	@AfterClass

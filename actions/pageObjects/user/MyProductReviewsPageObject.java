@@ -3,7 +3,7 @@ package pageObjects.user;
 import org.openqa.selenium.WebDriver;
 
 import commons.BasePage;
-import pageUIs.user.CustomerPageUI;
+import pageUIs.user.MyProductReviewsPageUI;
 
 public class MyProductReviewsPageObject extends BasePage {
 	WebDriver driver;
@@ -12,22 +12,8 @@ public class MyProductReviewsPageObject extends BasePage {
 		this.driver = driver;
 	}
 
-	public String getFirstNameAttributeValue() {
-		waitForElementVisible(driver, CustomerPageUI.FIRSTNAME_TEXTBOX);
-		return getElementAttribute(driver, CustomerPageUI.FIRSTNAME_TEXTBOX, "value");
-
+	public boolean isProductReviewDisplayed(String productName) {
+		waitForElementVisible(driver, MyProductReviewsPageUI.PRODUCT_REVIEW, productName);
+		return isElementDisplayed(driver, MyProductReviewsPageUI.PRODUCT_REVIEW, productName);
 	}
-
-	public String getLastNameAttributeValue() {
-		waitForElementVisible(driver, CustomerPageUI.LASTNAME_TEXTBOX);
-		return getElementAttribute(driver, CustomerPageUI.LASTNAME_TEXTBOX, "value");
-
-	}
-
-	public String getEmailAttributeValue() {
-		waitForElementVisible(driver, CustomerPageUI.EMAIL_TEXTBOX);
-		return getElementAttribute(driver, CustomerPageUI.EMAIL_TEXTBOX, "value");
-
-	}
-
 }

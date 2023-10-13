@@ -9,13 +9,10 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
-import com.aventstack.extentreports.Status;
-
 import commons.BaseTest;
 import commons.PageGeneratorManager;
 import pageObjects.user.HomePageObject;
 import pageObjects.user.RegisterPageObject;
-import reportConfig.ExtentTestManager;
 
 public class Level_18_ExtentReport3 extends BaseTest {
 	private WebDriver driver;
