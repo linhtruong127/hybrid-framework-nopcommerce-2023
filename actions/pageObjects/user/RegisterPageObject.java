@@ -2,14 +2,15 @@ package pageObjects.user;
 
 import org.openqa.selenium.WebDriver;
 
-import commons.BasePage;
+import commons.BaseElement;
 import io.qameta.allure.Step;
 import pageUIs.user.RegisterPageUI;
 
-public class RegisterPageObject extends BasePage {
+public class RegisterPageObject extends BaseElement {
 	WebDriver driver;
 
 	public RegisterPageObject(WebDriver driver) {
+		super(driver);
 		this.driver = driver;
 	}
 	@Step ("Click to register button")
@@ -33,6 +34,12 @@ public class RegisterPageObject extends BasePage {
 	public String getEmailErrorText() {
 		waitForElementVisible(driver, RegisterPageUI.EMAIL_ERROR_MSG);
 		return getElementText(driver, RegisterPageUI.EMAIL_ERROR_MSG);
+		
+	}
+	@Step ("Verify existed email message")
+	public String getExistedEmailText() {
+		waitForElementVisible(driver, RegisterPageUI.EXISTED_EMAIL_MSG);
+		return getElementText(driver, RegisterPageUI.EXISTED_EMAIL_MSG);
 
 	}
 	@Step ("Verify password error message")

@@ -2,13 +2,14 @@ package pageObjects.user;
 
 import org.openqa.selenium.WebDriver;
 
-import commons.BasePage;
+import commons.BaseElement;
 import pageUIs.user.CustomerPageUI;
 
-public class DownloadableProductsPageObject extends BasePage {
+public class DownloadableProductsPageObject extends BaseElement {
 	WebDriver driver;
 
 	public DownloadableProductsPageObject(WebDriver driver) {
+		super(driver);
 		this.driver = driver;
 	}
 

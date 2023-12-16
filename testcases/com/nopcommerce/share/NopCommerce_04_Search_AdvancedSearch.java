@@ -1,4 +1,4 @@
-package com.nopcommerce.account;
+package com.nopcommerce.share;
 
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
@@ -13,7 +13,7 @@ import pageObjects.user.HomePageObject;
 import pageObjects.user.SearchPageObject;
 import pageObjects.user.UserLoginPageObject;
 
-public class NopCommerce_Search_AdvancedSearch extends BaseTest {
+public class NopCommerce_04_Search_AdvancedSearch extends BaseTest {
 	private WebDriver driver;
 
 	private HomePageObject homePage;
@@ -25,15 +25,16 @@ public class NopCommerce_Search_AdvancedSearch extends BaseTest {
 	public void beforeClass(String browserName) {
 		driver = getBrowserName(browserName);
 		homePage = PageGeneratorManager.getHomePage(driver);
-
+		
+		loginPage = homePage.clickToLoginLink();
+		loginPage.enterToEmailTextbox(Common_Register.emailAddress);
+		loginPage.enterToPasswordTextbox(Common_Register.password);
+		homePage = loginPage.clickToUserLoginButton();
 	}
 
 	@Test
 	public void Search_01_With_Empty_Data() {
-		loginPage = homePage.clickToLoginLink();
-		loginPage.loginToUser("lisatest@gmail.com", "123456");
 		searchPage = homePage.clickToSearchLink();
-
 		searchPage.clickToSearchButton();
 
 		Assert.assertEquals(searchPage.getWarningMessage(), "Search term minimum length is 3 characters");

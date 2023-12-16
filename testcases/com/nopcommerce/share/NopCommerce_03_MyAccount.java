@@ -1,4 +1,4 @@
-package com.nopcommerce.account;
+package com.nopcommerce.share;
 
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
@@ -16,7 +16,7 @@ import pageObjects.user.UserLoginPageObject;
 import pageObjects.user.ChangePasswordPageObject;
 import pageObjects.user.MyProductReviewsPageObject;
 
-public class NopCommerce_MyAccount extends BaseTest {
+public class NopCommerce_03_MyAccount extends BaseTest {
 	private WebDriver driver;
 
 	private HomePageObject homePage;
@@ -31,15 +31,17 @@ public class NopCommerce_MyAccount extends BaseTest {
 	public void beforeClass(String browserName) {
 		driver = getBrowserName(browserName);
 		homePage = PageGeneratorManager.getHomePage(driver);
+		loginPage = homePage.clickToLoginLink();
 
+		loginPage.enterToEmailTextbox(Common_Register.emailAddress);
+		loginPage.enterToPasswordTextbox(Common_Register.password);
+		
+		homePage = loginPage.clickToUserLoginButton();
+		customerPage = homePage.clickToMyaccountLink();
 	}
 
 	@Test
 	public void MyAccount_01_Update_Customer_Info() {
-		loginPage = homePage.clickToLoginLink();
-		loginPage.loginToUser("lisatest@gmail.com", "123456");
-		customerPage = homePage.clickToMyaccountLink();
-		
 		customerPage.updateGenderValue("Female");
 		customerPage.updateFirstNameValue("Automation");
 		customerPage.updateLastNameValue("FC");
@@ -88,21 +90,22 @@ public class NopCommerce_MyAccount extends BaseTest {
 	public void MyAccount_03_Change_Password() {
 		addressesPage.openDynamicSidebarPage(driver, "Change password");
 		changePasswordPage = PageGeneratorManager.getChangePasswordPage(driver);
-		changePasswordPage.inputOldPassword("123456");
-		changePasswordPage.inputNewPassword("987654");
-		changePasswordPage.inputConfirmNewPassword("987654");
-		changePasswordPage.clickChangePasswordButton("987654");
+		changePasswordPage.inputOldPassword(Common_Register.password);
+		changePasswordPage.inputNewPassword(Common_Register.newPassword);
+		changePasswordPage.inputConfirmNewPassword(Common_Register.newPassword);
+		changePasswordPage.clickChangePasswordButton(Common_Register.newPassword);
 		Assert.assertEquals(changePasswordPage.getChangePasswordSuccessText(), "Password was changed");
 		changePasswordPage.closeChangePasswordText();
+		changePasswordPage.sleepInSecond(2);
 		changePasswordPage.clickToLogOutLink();
 		
 		loginPage = homePage.clickToLoginLink();
-		loginPage.loginToUser("lisatest@gmail.com", "123456");
+		loginPage.loginToUser(Common_Register.emailAddress, Common_Register.password);
 
 		Assert.assertEquals(loginPage.getLoginErrorText(), "Login was unsuccessful. Please correct the errors and try again.\n" + "The credentials provided are incorrect");
 		
 		loginPage = homePage.clickToLoginLink();
-		loginPage.loginToUser("lisatest@gmail.com", "987654");
+		loginPage.loginToUser(Common_Register.emailAddress, Common_Register.newPassword);
 		
 		}
 	@Test

@@ -2,14 +2,15 @@ package pageObjects.user;
 
 import org.openqa.selenium.WebDriver;
 
-import commons.BasePage;
+import commons.BaseElement;
 import io.qameta.allure.Step;
 import pageUIs.user.SearchPageUI;
 
-public class SearchPageObject extends BasePage {
+public class SearchPageObject extends BaseElement {
 	WebDriver driver;
 
 	public SearchPageObject(WebDriver driver) {
+		super(driver);
 		this.driver = driver;
 	}
 

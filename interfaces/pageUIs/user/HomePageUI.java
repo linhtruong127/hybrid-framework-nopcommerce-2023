@@ -3,9 +3,10 @@ package pageUIs.user;
 public class HomePageUI {
 	public static final String REGISTER_LINK = "xpath=//a[@class=\"ico-register\"]";
 	public static final String LOGIN_LINK = "Xpath=//a[@class=\"ico-login\"]";
-	public static final String LOGO_LINK = "Xpath=//div[@class=\"header-logo\"]//img";
+
 	public static final String MYACCOUNT_LINK = "Xpath=//a[@class=\"ico-account\"]";
 	public static final String LOGOUT_LINK = "xpath=//a[@class=\"ico-logout\"]";
+	
 	public static final String PRODUCT_NAME = "xpath=//h2[@class=\"product-title\"]/a[text()=\"%s\"]";
 	public static final String ADD_REVIEW_PRODUCT = "xpath=//a[text()=\"Add your review\"]";
 	public static final String ADD_REVIEW_TITLE = "xpath=//input[@class=\"review-title\"]";

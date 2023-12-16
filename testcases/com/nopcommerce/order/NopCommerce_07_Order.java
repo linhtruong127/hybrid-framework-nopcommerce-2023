@@ -1,4 +1,4 @@
-package com.nopcommerce.account;
+package com.nopcommerce.order;
 
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
@@ -15,7 +15,7 @@ import pageObjects.user.OrdersPageObject;
 import pageObjects.user.ShoppingCartPageObject;
 import pageObjects.user.UserLoginPageObject;
 
-public class NopCommerce_Order extends BaseTest {
+public class NopCommerce_07_Order extends BaseTest {
 	private WebDriver driver;
 
 	private HomePageObject homePage;
@@ -30,13 +30,17 @@ public class NopCommerce_Order extends BaseTest {
 	public void beforeClass(String browserName) {
 		driver = getBrowserName(browserName);
 		homePage = PageGeneratorManager.getHomePage(driver);
-
+		
+		loginPage = homePage.clickToLoginLink();
+		loginPage.enterToEmailTextbox(Common_Register.emailAddress);
+		loginPage.enterToPasswordTextbox(Common_Register.newPassword);
+		homePage = loginPage.clickToUserLoginButton();
+		
 	}
 
 	@Test
 	public void Order_01_Add_Product_To_Shopping_Cart() {
-		loginPage = homePage.clickToLoginLink();
-		loginPage.loginToUser("lisatest@gmail.com", "123456");
+		
 		homePage.clickToProductMenu("Computers ");
 		homePage.clickToSubProductName("Desktops ");
 		homePage.clickToProductName("Build your own computer");
@@ -114,11 +118,6 @@ public class NopCommerce_Order extends BaseTest {
 
 	@Test
 	public void Order_05_Checkout_Product_Payment_Method_By_Cheque() {
-//		homePage.clickToLogoLink();
-//		homePage.clickToProductMenu("Computers ");
-//		homePage.clickToSubProductName("Notebooks ");
-//		homePage.clickToProductName("Asus N551JK-XO076H Laptop");
-//		homePage.clickToAddToCartButton();
 		shoppingcartPage = homePage.clickToShoppingCartLink();
 		shoppingcartPage.selectGiftWrappingOption("No");
 		shoppingcartPage.clickToEstimateShippingButton();
@@ -165,8 +164,8 @@ public class NopCommerce_Order extends BaseTest {
 		Assert.assertEquals(shoppingcartPage.getBilllingInfoDisplayInConfirmOrder("country"), "Viet Nam"); 
 		Assert.assertTrue(shoppingcartPage.isPaymentMethodDisplayInConfirmOrder(), "Check / Money Order"); 
 		
-		Assert.assertEquals(shoppingcartPage.getShippingAddressDisplayInConfirmOrder("name"), "lisa test"); 
-		Assert.assertEquals(shoppingcartPage.getShippingAddressDisplayInConfirmOrder("email"), "Email: lisatest@gmail.com"); 
+		Assert.assertEquals(shoppingcartPage.getShippingAddressDisplayInConfirmOrder("name"), "Lisa Truong"); 
+		Assert.assertEquals(shoppingcartPage.getShippingAddressDisplayInConfirmOrder("email"), "Email: " + Common_Register.emailAddress); 
 		Assert.assertEquals(shoppingcartPage.getShippingAddressDisplayInConfirmOrder("phone"), "Phone: 23456789"); 
 		Assert.assertEquals(shoppingcartPage.getShippingAddressDisplayInConfirmOrder("address1"), "123 QWE"); 
 		Assert.assertEquals(shoppingcartPage.getShippingAddressDisplayInConfirmOrder("city-state-zip"), "Da Nang,70000"); 
@@ -206,8 +205,8 @@ public class NopCommerce_Order extends BaseTest {
 		Assert.assertEquals(ordersPage.getBilllingInfoDisplayInOrders("country"), "Viet Nam"); 
 		Assert.assertTrue(ordersPage.isPaymentMethodDisplayInOrders(), "Check / Money Order"); 
 		
-		Assert.assertEquals(ordersPage.getShippingAddressDisplayInOrders("name"), "lisa test"); 
-		Assert.assertEquals(ordersPage.getShippingAddressDisplayInOrders("email"), "Email: lisatest@gmail.com"); 
+		Assert.assertEquals(ordersPage.getShippingAddressDisplayInOrders("name"), "Lisa Truong"); 
+		Assert.assertEquals(ordersPage.getShippingAddressDisplayInOrders("email"), "Email: " + Common_Register.emailAddress); 
 		Assert.assertEquals(ordersPage.getShippingAddressDisplayInOrders("phone"), "Phone: 23456789"); 
 		Assert.assertEquals(ordersPage.getShippingAddressDisplayInOrders("address1"), "123 QWE"); 
 		Assert.assertEquals(ordersPage.getShippingAddressDisplayInOrders("city-state-zip"), "Da Nang,70000"); 
@@ -285,8 +284,8 @@ public class NopCommerce_Order extends BaseTest {
 		Assert.assertEquals(shoppingcartPage.getBilllingInfoDisplayInConfirmOrder("country"), "Viet Nam"); 
 		Assert.assertTrue(shoppingcartPage.isPaymentMethodDisplayInConfirmOrder(), "Credit Card"); 
 		
-		Assert.assertEquals(shoppingcartPage.getShippingAddressDisplayInConfirmOrder("name"), "lisa test"); 
-		Assert.assertEquals(shoppingcartPage.getShippingAddressDisplayInConfirmOrder("email"), "Email: lisatest@gmail.com"); 
+		Assert.assertEquals(shoppingcartPage.getShippingAddressDisplayInConfirmOrder("name"), "Lisa Truong"); 
+		Assert.assertEquals(shoppingcartPage.getShippingAddressDisplayInConfirmOrder("email"), "Email: " + Common_Register.emailAddress); 
 		Assert.assertEquals(shoppingcartPage.getShippingAddressDisplayInConfirmOrder("phone"), "Phone: 23456789"); 
 		Assert.assertEquals(shoppingcartPage.getShippingAddressDisplayInConfirmOrder("address1"), "123 QWE"); 
 		Assert.assertEquals(shoppingcartPage.getShippingAddressDisplayInConfirmOrder("city-state-zip"), "Da Nang,70000"); 
@@ -326,8 +325,8 @@ public class NopCommerce_Order extends BaseTest {
 		Assert.assertEquals(ordersPage.getBilllingInfoDisplayInOrders("country"), "Viet Nam"); 
 		Assert.assertTrue(ordersPage.isPaymentMethodDisplayInOrders(), "Credit Card"); 
 		
-		Assert.assertEquals(ordersPage.getShippingAddressDisplayInOrders("name"), "lisa test"); 
-		Assert.assertEquals(ordersPage.getShippingAddressDisplayInOrders("email"), "Email: lisatest@gmail.com"); 
+		Assert.assertEquals(ordersPage.getShippingAddressDisplayInOrders("name"), "Lisa Truong"); 
+		Assert.assertEquals(ordersPage.getShippingAddressDisplayInOrders("email"), "Email: " + Common_Register.emailAddress); 
 		Assert.assertEquals(ordersPage.getShippingAddressDisplayInOrders("phone"), "Phone: 23456789"); 
 		Assert.assertEquals(ordersPage.getShippingAddressDisplayInOrders("address1"), "123 QWE"); 
 		Assert.assertEquals(ordersPage.getShippingAddressDisplayInOrders("city-state-zip"), "Da Nang,70000"); 
@@ -399,8 +398,8 @@ public class NopCommerce_Order extends BaseTest {
 		Assert.assertEquals(shoppingcartPage.getBilllingInfoDisplayInConfirmOrder("country"), "Viet Nam"); 
 		Assert.assertTrue(shoppingcartPage.isPaymentMethodDisplayInConfirmOrder(), "Credit Card"); 
 		
-		Assert.assertEquals(shoppingcartPage.getShippingAddressDisplayInConfirmOrder("name"), "lisa test"); 
-		Assert.assertEquals(shoppingcartPage.getShippingAddressDisplayInConfirmOrder("email"), "Email: lisatest@gmail.com"); 
+		Assert.assertEquals(shoppingcartPage.getShippingAddressDisplayInConfirmOrder("name"), "Lisa Truong"); 
+		Assert.assertEquals(shoppingcartPage.getShippingAddressDisplayInConfirmOrder("email"), "Email: " + Common_Register.emailAddress); 
 		Assert.assertEquals(shoppingcartPage.getShippingAddressDisplayInConfirmOrder("phone"), "Phone: 98765432"); 
 		Assert.assertEquals(shoppingcartPage.getShippingAddressDisplayInConfirmOrder("address1"), "123 Cao Lo"); 
 		Assert.assertEquals(shoppingcartPage.getShippingAddressDisplayInConfirmOrder("city-state-zip"), "Da Nang,40000"); 

@@ -37,44 +37,42 @@ public class CustomerPageObject extends MyAccountSideBarPageObject {
 
 	public void updateGenderValue(String updateGender) {
 		waitForElementClickable(driver, CustomerPageUI.GENDER_FEMALE_CHECKBOX);
-		clickToElement(driver, CustomerPageUI.GENDER_FEMALE_CHECKBOX,updateGender);
-		
+		clickToElement(driver, CustomerPageUI.GENDER_FEMALE_CHECKBOX, updateGender);
+
 	}
 
 	public void updateFirstNameValue(String updateFirstName) {
 		waitForElementClickable(driver, CustomerPageUI.FIRSTNAME_TEXTBOX);
-		sendkeyToElement(driver, CustomerPageUI.FIRSTNAME_TEXTBOX, updateFirstName);	
+		sendkeyToElement(driver, CustomerPageUI.FIRSTNAME_TEXTBOX, updateFirstName);
 	}
-	
+
 	public void updateLastNameValue(String updateLastName) {
 		waitForElementClickable(driver, CustomerPageUI.LASTNAME_TEXTBOX);
 		sendkeyToElement(driver, CustomerPageUI.LASTNAME_TEXTBOX, updateLastName);
 	}
-	
+
 	public void updateEmailValue(String updateEmail) {
 		waitForElementClickable(driver, CustomerPageUI.EMAIL_TEXTBOX);
 		sendkeyToElement(driver, CustomerPageUI.EMAIL_TEXTBOX, updateEmail);
-		
+
 	}
 
 	public void updateDateOfBirthValue(String dropdownItem, String updateValue) {
-		waitForElementClickable(driver, CustomerPageUI.DATE_OF_BIRTH_CHECKBOX,updateValue);
+		waitForElementClickable(driver, CustomerPageUI.DATE_OF_BIRTH_CHECKBOX, updateValue);
 		selectItemInDefaultDropdown(driver, CustomerPageUI.DATE_OF_BIRTH_CHECKBOX, dropdownItem, updateValue);
-		
+
 	}
 
 	public void updateCompanyNameValue(String updateCompanyName) {
 		waitForElementClickable(driver, CustomerPageUI.COMPANY_NAME_TEXTBOX);
 		sendkeyToElement(driver, CustomerPageUI.COMPANY_NAME_TEXTBOX, updateCompanyName);
-		
+
 	}
 
 	public void clickToSaveButton() {
 		waitForElementClickable(driver, CustomerPageUI.SAVE_BUTTON);
 		clickToElement(driver, CustomerPageUI.SAVE_BUTTON);
-		
+
 	}
 
-
-		
-	}
+}

@@ -4,6 +4,8 @@ import org.openqa.selenium.WebDriver;
 
 import pageObjects.admin.AdminDashboardPageObject;
 import pageObjects.admin.AdminLoginPageObject;
+import pageObjects.admin.AdminProductsPageObject;
+import pageObjects.admin.AdminCustomersPageObject;
 import pageObjects.user.AddressesPageObject;
 import pageObjects.user.BackInStockSubscriptionsPageObject;
 import pageObjects.user.ChangePasswordPageObject;
@@ -98,5 +100,11 @@ public class PageGeneratorManager {
 
 	public static OrdersPageObject getOdersPage(WebDriver driver) {
 		return new OrdersPageObject(driver);
+	}
+	public static AdminProductsPageObject getAdminProductsPage(WebDriver driver) {
+		return new AdminProductsPageObject(driver);
+	}
+	public static AdminCustomersPageObject getAdminCustomersPage(WebDriver driver) {
+		return new AdminCustomersPageObject(driver);
 	}
 }

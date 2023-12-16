@@ -1,4 +1,4 @@
-package com.nopcommerce.account;
+package com.nopcommerce.share;
 
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
@@ -11,7 +11,7 @@ import commons.BaseTest;
 import commons.PageGeneratorManager;
 import pageObjects.user.HomePageObject;
 
-public class NopCommerce_Sort_Display_Paging extends BaseTest {
+public class NopCommerce_05_Sort_Display_Paging extends BaseTest {
 	private WebDriver driver;
 
 	private HomePageObject homePage;
@@ -21,14 +21,13 @@ public class NopCommerce_Sort_Display_Paging extends BaseTest {
 	public void beforeClass(String browserName) {
 		driver = getBrowserName(browserName);
 		homePage = PageGeneratorManager.getHomePage(driver);
-
+		
+		homePage.clickToProductMenu("Computers ");
+		homePage.clickToSubProductName("Notebooks ");
 	}
 
 	@Test
 	public void Sorting_01_Product_Name_From_A_To_Z() {
-
-		homePage.clickToProductMenu("Computers ");
-		homePage.clickToSubProductName("Notebooks ");
 		homePage.selectSortType("Name: A to Z");
 		homePage.sleepInSecond(2);
 		Assert.assertTrue(homePage.isResultDisplayedAsAscendingOrder());
@@ -59,7 +58,7 @@ public class NopCommerce_Sort_Display_Paging extends BaseTest {
 	@Test
 	public void Sorting_05_Display_3_Product_Per_Page() {
 		homePage.selectThePagesizeToDisplay("3");
-
+		homePage.sleepInSecond(2);
 		Assert.assertTrue(homePage.getPageSize() <= 3);
 		Assert.assertTrue(homePage.isNextIconDisplayed());
 

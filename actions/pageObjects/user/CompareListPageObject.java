@@ -2,14 +2,15 @@ package pageObjects.user;
 
 import org.openqa.selenium.WebDriver;
 
-import commons.BasePage;
+import commons.BaseElement;
 import io.qameta.allure.Step;
 import pageUIs.user.CompareListPageUI;
 
-public class CompareListPageObject extends BasePage {
+public class CompareListPageObject extends BaseElement {
 	WebDriver driver;
 
 	public CompareListPageObject(WebDriver driver) {
+		super(driver);
 		this.driver = driver;
 	}
 

@@ -18,7 +18,7 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-import pageUIs.user.BasePageUI;
+import pageUIs.user.BaseElementUI;
 
 public class BasePage {
 
@@ -123,7 +123,7 @@ public class BasePage {
 		}
 	}
 
-	public Set<org.openqa.selenium.Cookie> getBrowserCookies(WebDriver driver) {
+	public Set<Cookie> getBrowserCookies(WebDriver driver) {
 		return driver.manage().getCookies();
 	}
 
@@ -229,13 +229,34 @@ public class BasePage {
 
 	public void selectItemInCustomDropdown(WebDriver driver, String parentLocator, String childLocator, String expectedItem) {
 		getWebElement(driver, parentLocator).click();
-		sleepInSecond(1);
-
+		sleepInSecond(2);
+		
 		List<WebElement> speedDropdownItems = new WebDriverWait(driver, Duration.ofSeconds(longTimeout)).until(ExpectedConditions.presenceOfAllElementsLocatedBy(getByLocator(childLocator)));
-
+		
 		for (WebElement item : speedDropdownItems) {
 			if (item.getText().trim().equals(expectedItem)) {
+				item.click();
+				
+				sleepInSecond(1);
+				break;
+			}
+		}
+	}
+	public void selectItemOfCustomDropdown(WebDriver driver, String parentLocator, String childLocator, String expectedItem) {
+		getWebElement(driver, parentLocator).click();
+		sleepInSecond(2);
 
+		List<WebElement> allDropdownItems = new WebDriverWait(driver, Duration.ofSeconds(longTimeout)).until(ExpectedConditions.presenceOfAllElementsLocatedBy(getByLocator(childLocator)));
+
+		for (WebElement item : allDropdownItems) {
+			if (item.getText().trim().equals(expectedItem)) {
+				System.out.println(expectedItem);
+				
+			}else {
+				((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", item);
+				sleepInSecond(2);
+				new WebDriverWait(driver, Duration.ofSeconds(longTimeout)).until(ExpectedConditions.elementToBeClickable(item));
+				//((JavascriptExecutor) driver).executeScript("arguments[0].click();", expectedItem);
 				item.click();
 				sleepInSecond(1);
 				break;
@@ -245,6 +266,10 @@ public class BasePage {
 
 	public String getElementAttribute(WebDriver driver, String locator, String attributeName) {
 		return getWebElement(driver, locator).getAttribute(attributeName);
+	}
+
+	public String getElementAttribute(WebDriver driver, String locator, String attributeName, String... dynamicValues) {
+		return getWebElement(driver, getDynamicLocator(locator, dynamicValues)).getAttribute(attributeName);
 	}
 
 	public String getElementCssValue(WebDriver driver, String locator, String cssPropertyName) {
@@ -301,6 +326,23 @@ public class BasePage {
 
 	public boolean isElementDisplayed(WebDriver driver, String locator) {
 		return getWebElement(driver, locator).isDisplayed();
+	}
+
+	public boolean isElementUnDisplayed(WebDriver driver, String locator) {
+		setImplicitWait(driver, shortTimeout);
+		List<WebElement> elements = getListWebElement(driver, locator);
+		setImplicitWait(driver, longTimeout);
+		if (elements.size() == 0) {
+			return true;
+		} else if (elements.size() > 0 && !elements.get(0).isDisplayed()) {
+			return true;
+		} else {
+			return false;
+		}
+	}
+
+	public void setImplicitWait(WebDriver driver, long timeout) {
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(timeout));
 	}
 
 	public boolean isElementDisplayed(WebDriver driver, WebElement element) {
@@ -384,8 +426,15 @@ public class BasePage {
 		((JavascriptExecutor) driver).executeScript("arguments[0].click();", getWebElement(driver, locator));
 	}
 
+	public void clickToElementByJS(WebDriver driver, String locator, String... dynamicValues) {
+		((JavascriptExecutor) driver).executeScript("arguments[0].click();", getWebElement(driver, getDynamicLocator(locator, dynamicValues)));
+	}
+
 	public void scrollToElement(WebDriver driver, String locator) {
 		((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", getWebElement(driver, locator));
+	}
+	public void scrollToElement(WebDriver driver, String locator, String... dynamicValues) {
+		((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", getWebElement(driver, getDynamicLocator(locator, dynamicValues)));
 	}
 
 	public void sendkeyToElementByJS(WebDriver driver, String locator, String value) {
@@ -456,7 +505,7 @@ public class BasePage {
 	}
 
 	public void waitForElementClickable(WebDriver driver, WebElement element) {
-		new WebDriverWait(driver, Duration.ofSeconds(30)).until(ExpectedConditions.elementToBeClickable(element));
+		new WebDriverWait(driver, Duration.ofSeconds(longTimeout)).until(ExpectedConditions.elementToBeClickable(element));
 
 	}
 
@@ -494,9 +543,10 @@ public class BasePage {
 		}
 
 		fullFileName = fullFileName.trim();
-		getWebElement(driver, BasePageUI.UPLOAD_BUTTON).sendKeys(fullFileName);
+		getWebElement(driver, BaseElementUI.UPLOAD_BUTTON).sendKeys(fullFileName);
 
 	}
 
 	private long longTimeout = GlobalConstants.LONG_TIMEOUT;
+	private long shortTimeout = GlobalConstants.SHORT_TIMEOUT;
 }

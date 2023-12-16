@@ -294,3 +294,638 @@
 [20-09-2023 16:42:07.197 INFO com.nopcommerce.account.Level_18_ExtentReport2] - ..............PASSED..............
 [20-09-2023 16:42:07.238 INFO com.nopcommerce.account.Level_18_ExtentReport2] - ..............FAILED..............
 [20-09-2023 16:42:09.473 INFO com.nopcommerce.account.Level_18_ExtentReport2] - ..............FAILED..............
+[15-10-2023 08:04:46.738 INFO com.facebook.register.Level_20_Element_Displayed_Undisplayed] - ..............PASSED..............
+[15-10-2023 08:04:46.822 INFO com.facebook.register.Level_20_Element_Displayed_Undisplayed] - ..............PASSED..............
+[15-10-2023 08:04:46.886 INFO com.facebook.register.Level_20_Element_Displayed_Undisplayed] - ..............PASSED..............
+[15-10-2023 08:04:46.957 INFO com.facebook.register.Level_20_Element_Displayed_Undisplayed] - ..............PASSED..............
+[15-10-2023 08:04:47.199 INFO com.facebook.register.Level_20_Element_Displayed_Undisplayed] - Verify Confirm Email textbox is displayed
+[15-10-2023 08:04:47.374 INFO com.facebook.register.Level_20_Element_Displayed_Undisplayed] - ..............PASSED..............
+[15-10-2023 08:04:47.677 INFO com.facebook.register.Level_20_Element_Displayed_Undisplayed] - Verify Confirm Email textbox is not displayed
+[15-10-2023 08:04:47.790 INFO com.facebook.register.Level_20_Element_Displayed_Undisplayed] - ..............FAILED..............
+[15-10-2023 08:07:28.353 INFO com.facebook.register.Level_20_Element_Displayed_Undisplayed] - ..............PASSED..............
+[15-10-2023 08:07:28.430 INFO com.facebook.register.Level_20_Element_Displayed_Undisplayed] - ..............PASSED..............
+[15-10-2023 08:07:28.518 INFO com.facebook.register.Level_20_Element_Displayed_Undisplayed] - ..............PASSED..............
+[15-10-2023 08:07:28.614 INFO com.facebook.register.Level_20_Element_Displayed_Undisplayed] - ..............PASSED..............
+[15-10-2023 08:07:28.770 INFO com.facebook.register.Level_20_Element_Displayed_Undisplayed] - Verify Confirm Email textbox is displayed
+[15-10-2023 08:07:28.878 INFO com.facebook.register.Level_20_Element_Displayed_Undisplayed] - ..............PASSED..............
+[15-10-2023 08:07:32.179 INFO com.facebook.register.Level_20_Element_Displayed_Undisplayed] - Verify Confirm Email textbox is not displayed
+[15-10-2023 08:13:32.335 INFO com.facebook.register.Level_20_Element_Displayed_Undisplayed] - ..............PASSED..............
+[15-10-2023 08:13:32.420 INFO com.facebook.register.Level_20_Element_Displayed_Undisplayed] - ..............PASSED..............
+[15-10-2023 08:13:32.499 INFO com.facebook.register.Level_20_Element_Displayed_Undisplayed] - ..............PASSED..............
+[15-10-2023 08:13:32.576 INFO com.facebook.register.Level_20_Element_Displayed_Undisplayed] - ..............PASSED..............
+[15-10-2023 08:13:32.927 INFO com.facebook.register.Level_20_Element_Displayed_Undisplayed] - Verify Confirm Email textbox is displayed
+[15-10-2023 08:13:33.047 INFO com.facebook.register.Level_20_Element_Displayed_Undisplayed] - ..............PASSED..............
+[15-10-2023 08:13:36.482 INFO com.facebook.register.Level_20_Element_Displayed_Undisplayed] - Verify Confirm Email textbox is not displayed
+[15-10-2023 08:14:07.144 INFO com.facebook.register.Level_20_Element_Displayed_Undisplayed] - ..............FAILED..............
+[16-10-2023 05:27:05.365 INFO com.facebook.register.Level_20_Element_Displayed_Undisplayed] - ..............PASSED..............
+[16-10-2023 05:27:05.450 INFO com.facebook.register.Level_20_Element_Displayed_Undisplayed] - ..............PASSED..............
+[16-10-2023 05:27:05.529 INFO com.facebook.register.Level_20_Element_Displayed_Undisplayed] - ..............PASSED..............
+[16-10-2023 05:27:05.606 INFO com.facebook.register.Level_20_Element_Displayed_Undisplayed] - ..............PASSED..............
+[16-10-2023 05:27:05.906 INFO com.facebook.register.Level_20_Element_Displayed_Undisplayed] - Verify Confirm Email textbox is displayed
+[16-10-2023 05:27:06.011 INFO com.facebook.register.Level_20_Element_Displayed_Undisplayed] - ..............PASSED..............
+[16-10-2023 05:27:09.385 INFO com.facebook.register.Level_20_Element_Displayed_Undisplayed] - Verify Confirm Email textbox is not displayed
+[16-10-2023 05:27:39.860 INFO com.facebook.register.Level_20_Element_Displayed_Undisplayed] - Verify First Name textbox is not displayed
+[16-10-2023 05:27:39.972 INFO com.facebook.register.Level_20_Element_Displayed_Undisplayed] - ..............FAILED..............
+[16-10-2023 05:27:39.974 INFO com.facebook.register.Level_20_Element_Displayed_Undisplayed] - Verify Last Name textbox is not displayed
+[16-10-2023 05:31:38.518 INFO com.facebook.register.Level_20_Element_Displayed_Undisplayed] - ..............PASSED..............
+[16-10-2023 05:31:38.678 INFO com.facebook.register.Level_20_Element_Displayed_Undisplayed] - ..............PASSED..............
+[16-10-2023 05:31:38.794 INFO com.facebook.register.Level_20_Element_Displayed_Undisplayed] - ..............PASSED..............
+[16-10-2023 05:31:38.937 INFO com.facebook.register.Level_20_Element_Displayed_Undisplayed] - ..............PASSED..............
+[16-10-2023 05:31:39.415 INFO com.facebook.register.Level_20_Element_Displayed_Undisplayed] - Verify Confirm Email textbox is displayed
+[16-10-2023 05:31:39.589 INFO com.facebook.register.Level_20_Element_Displayed_Undisplayed] - ..............PASSED..............
+[16-10-2023 05:31:43.296 INFO com.facebook.register.Level_20_Element_Displayed_Undisplayed] - Verify Confirm Email textbox is not displayed
+[16-10-2023 05:32:13.779 INFO com.facebook.register.Level_20_Element_Displayed_Undisplayed] - Verify First Name textbox is not displayed
+[16-10-2023 05:47:16.661 INFO com.facebook.register.Level_20_Element_Displayed_Undisplayed] - ..............PASSED..............
+[16-10-2023 05:47:16.769 INFO com.facebook.register.Level_20_Element_Displayed_Undisplayed] - ..............PASSED..............
+[16-10-2023 05:47:16.806 INFO com.facebook.register.Level_20_Element_Displayed_Undisplayed] - ..............PASSED..............
+[16-10-2023 05:47:16.850 INFO com.facebook.register.Level_20_Element_Displayed_Undisplayed] - ..............PASSED..............
+[16-10-2023 05:47:17.144 INFO com.facebook.register.Level_20_Element_Displayed_Undisplayed] - Verify Confirm Email textbox is displayed
+[16-10-2023 05:47:17.211 INFO com.facebook.register.Level_20_Element_Displayed_Undisplayed] - ..............PASSED..............
+[16-10-2023 05:47:20.607 INFO com.facebook.register.Level_20_Element_Displayed_Undisplayed] - Verify Confirm Email textbox is not displayed
+[16-10-2023 05:47:20.694 INFO com.facebook.register.Level_20_Element_Displayed_Undisplayed] - ..............PASSED..............
+[16-10-2023 05:47:22.842 INFO com.facebook.register.Level_20_Element_Displayed_Undisplayed] - Verify First Name textbox is not displayed
+[16-10-2023 06:27:41.309 INFO com.facebook.register.Level_20_Element_Displayed_Undisplayed] - ..............PASSED..............
+[16-10-2023 06:27:41.371 INFO com.facebook.register.Level_20_Element_Displayed_Undisplayed] - ..............PASSED..............
+[16-10-2023 06:27:41.424 INFO com.facebook.register.Level_20_Element_Displayed_Undisplayed] - ..............PASSED..............
+[16-10-2023 06:27:41.505 INFO com.facebook.register.Level_20_Element_Displayed_Undisplayed] - ..............PASSED..............
+[16-10-2023 06:27:41.940 INFO com.facebook.register.Level_20_Element_Displayed_Undisplayed] - Verify Confirm Email textbox is displayed
+[16-10-2023 06:27:42.025 INFO com.facebook.register.Level_20_Element_Displayed_Undisplayed] - ..............PASSED..............
+[16-10-2023 06:27:45.463 INFO com.facebook.register.Level_20_Element_Displayed_Undisplayed] - Verify Confirm Email textbox is not displayed
+[16-10-2023 06:27:45.574 INFO com.facebook.register.Level_20_Element_Displayed_Undisplayed] - ..............PASSED..............
+[16-10-2023 06:27:47.763 INFO com.facebook.register.Level_20_Element_Displayed_Undisplayed] - Verify First Name textbox is not displayed
+[16-10-2023 06:27:52.839 INFO com.facebook.register.Level_20_Element_Displayed_Undisplayed] - ..............PASSED..............
+[16-10-2023 06:27:52.842 INFO com.facebook.register.Level_20_Element_Displayed_Undisplayed] - Verify Last Name textbox is not displayed
+[16-10-2023 06:27:57.917 INFO com.facebook.register.Level_20_Element_Displayed_Undisplayed] - ..............PASSED..............
+[16-10-2023 06:27:57.924 INFO com.facebook.register.Level_20_Element_Displayed_Undisplayed] - Verify Email textbox is not displayed
+[16-10-2023 06:28:03.035 INFO com.facebook.register.Level_20_Element_Displayed_Undisplayed] - ..............PASSED..............
+[16-10-2023 06:28:03.036 INFO com.facebook.register.Level_20_Element_Displayed_Undisplayed] - Verify Password textbox is not displayed
+[16-10-2023 06:28:08.152 INFO com.facebook.register.Level_20_Element_Displayed_Undisplayed] - ..............PASSED..............
+[20-10-2023 15:31:37.547 INFO com.nopcommerce.account.Level_22_Close_Browser] - OS name = windows 10
+[20-10-2023 15:31:37.597 INFO com.nopcommerce.account.Level_22_Close_Browser] - Driver instance name = chromedriver: chrome on windows (fd9202c58a6917070fe8a86454eeb689)
+[20-10-2023 15:36:38.459 INFO com.nopcommerce.account.Level_22_Close_Browser] - OS name = windows 10
+[20-10-2023 15:36:38.480 INFO com.nopcommerce.account.Level_22_Close_Browser] - Driver instance name = chromedriver: chrome on windows (f1cb54b7e4bb7c3aed44ee1e0e384765)
+[20-10-2023 15:40:03.336 INFO com.nopcommerce.account.Level_22_Close_Browser] - OS name = windows 10
+[20-10-2023 15:40:03.353 INFO com.nopcommerce.account.Level_22_Close_Browser] - Driver instance name = firefoxdriver: firefox on windows (5bfc6944-6550-445a-adae-634e0f124d8e)
+[20-10-2023 15:40:03.518 INFO com.nopcommerce.account.Level_22_Close_Browser] - Failed to decode response from marionette
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [5bfc6944-6550-445a-adae-634e0f124d8e, deleteAllCookies {}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 118.0.2, moz:accessibilityChecks: false, moz:buildID: 20231009140911, moz:debuggerAddress: 127.0.0.1:5764, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 10816, moz:profile: C:\Users\ADMINI~1\AppData\L..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:5764/devtool..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 5bfc6944-6550-445a-adae-634e0f124d8e
+[21-10-2023 06:16:14.246 INFO com.nopcommerce.account.Level_22_Close_Browser] - OS name = windows 10
+[21-10-2023 06:16:14.267 INFO com.nopcommerce.account.Level_22_Close_Browser] - Driver instance name = firefoxdriver: firefox on windows (c7cc4250-8c4f-4411-b988-7cfb27de8374)
+[28-10-2023 08:23:51.777 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - OS name = windows 10
+[28-10-2023 08:23:51.791 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - Driver instance name = chromedriver: chrome on windows (f34c53b7dc0fe42a35ac5464fda7a0b7)
+[28-10-2023 08:31:04.233 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - OS name = windows 10
+[28-10-2023 08:31:04.297 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - Driver instance name = chromedriver: chrome on windows (fd301e678adf47bd7f297182e949f85a)
+[28-10-2023 08:34:48.507 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - OS name = windows 10
+[28-10-2023 08:34:48.516 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - Driver instance name = firefoxdriver: firefox on windows (232ba575-111b-44f1-921b-01caecfe616a)
+[28-10-2023 08:41:33.702 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - OS name = windows 10
+[28-10-2023 08:41:33.711 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - Driver instance name = firefoxdriver: firefox on windows (0db792a5-67d5-4707-8652-128d25462a2f)
+[28-10-2023 08:44:39.475 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - OS name = windows 10
+[28-10-2023 08:44:39.487 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - Driver instance name = firefoxdriver: firefox on windows (6c4cfe1b-4d6e-4fd6-80e8-f29487d2c155)
+[28-10-2023 08:45:43.997 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - OS name = windows 10
+[28-10-2023 08:45:44.009 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - Driver instance name = chromedriver: chrome on windows (979393008a2895b8d8b243c8ee11e532)
+[29-10-2023 05:01:15.072 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - OS name = windows 10
+[29-10-2023 05:01:15.090 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - Driver instance name = chromedriver: chrome on windows (e4bfb1ea30172c45d594db089420365f)
+[29-10-2023 05:10:21.518 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - OS name = windows 10
+[29-10-2023 05:10:21.537 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - Driver instance name = chromedriver: chrome on windows (648e97b3726caa3968dbcf943b324604)
+[29-10-2023 05:12:44.025 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - OS name = windows 10
+[29-10-2023 05:12:44.040 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - Driver instance name = chromedriver: chrome on windows (cdb1a79e83b0349adb0053ddecb19705)
+[29-10-2023 07:51:43.028 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - OS name = windows 10
+[29-10-2023 07:51:43.047 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - Driver instance name = chromedriver: chrome on windows (6e687b481ffe550b9e01ac147d8321f1)
+[29-10-2023 14:49:01.894 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - OS name = windows 10
+[29-10-2023 14:49:01.911 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - Driver instance name = chromedriver: chrome on windows (b3270c8be689c272e70e07e6aafb0c8c)
+[29-10-2023 15:12:01.104 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - OS name = windows 10
+[29-10-2023 15:12:01.112 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - Driver instance name = chromedriver: chrome on windows (01593f41adeac32f34d8b43d2098c156)
+[30-10-2023 05:50:51.489 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - OS name = windows 10
+[30-10-2023 05:50:51.509 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - Driver instance name = chromedriver: chrome on windows (c6823aab8a038118244967fef309d4d8)
+[30-10-2023 06:03:22.022 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - OS name = windows 10
+[30-10-2023 06:03:22.031 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - Driver instance name = chromedriver: chrome on windows (a9f1c4d40375d1406a15f3ff2e5c8ce5)
+[30-10-2023 06:06:21.921 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - OS name = windows 10
+[30-10-2023 06:06:21.940 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - Driver instance name = chromedriver: chrome on windows (0b86968c5b6a0f89d2378638b2482d2e)
+[30-10-2023 06:16:49.640 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - OS name = windows 10
+[30-10-2023 06:16:49.663 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - Driver instance name = chromedriver: chrome on windows (aa43db4172e2f2ac45976f832b1b0f90)
+[30-10-2023 06:16:49.674 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=118.0.5993.72)
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [aa43db4172e2f2ac45976f832b1b0f90, deleteAllCookies {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 118.0.5993.72, chrome: {chromedriverVersion: 118.0.5993.70 (e52f33f30b91..., userDataDir: C:\Windows\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51115}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51115/devtoo..., se:cdpVersion: 118.0.5993.72, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: aa43db4172e2f2ac45976f832b1b0f90
+[30-10-2023 06:18:24.990 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - OS name = windows 10
+[30-10-2023 06:18:25.004 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - Driver instance name = chromedriver: chrome on windows (f981663764c54931089bcbcb16972208)
+[30-10-2023 06:25:03.599 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - OS name = windows 10
+[30-10-2023 06:25:03.612 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - Driver instance name = chromedriver: chrome on windows (090a77d916632407f8ba3ecc405eded3)
+[30-10-2023 06:46:46.705 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - OS name = windows 10
+[30-10-2023 06:46:46.724 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - Driver instance name = chromedriver: chrome on windows (c24e01f7d6dfbc6f4f4d3a72c7197923)
+[30-10-2023 06:54:12.400 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - OS name = windows 10
+[30-10-2023 06:54:12.416 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - Driver instance name = chromedriver: chrome on windows (e44dca746f910d6b94325774a71952ca)
+[30-10-2023 07:07:08.785 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - OS name = windows 10
+[30-10-2023 07:07:08.796 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - Driver instance name = chromedriver: chrome on windows (8abbf5d6625fedd3cf98614efa5bc3c3)
+[30-10-2023 07:13:20.133 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - OS name = windows 10
+[30-10-2023 07:13:20.143 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - Driver instance name = chromedriver: chrome on windows (ac9569fbb0807b9458d688c465a1fa7d)
+[30-10-2023 07:20:57.449 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - OS name = windows 10
+[30-10-2023 07:20:57.462 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - Driver instance name = chromedriver: chrome on windows (e8e2254cc435d65284cbb3075b8f7bad)
+[30-10-2023 07:27:02.968 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - OS name = windows 10
+[30-10-2023 07:27:02.978 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - Driver instance name = chromedriver: chrome on windows (c364bde8887a06f6927ddae03383f092)
+[30-10-2023 07:29:54.916 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - OS name = windows 10
+[30-10-2023 07:29:54.927 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - Driver instance name = chromedriver: chrome on windows (a0ec45b5bbcd8cdc472a9c472fcf0cac)
+[30-10-2023 10:19:53.896 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - OS name = windows 10
+[30-10-2023 10:19:53.911 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - Driver instance name = chromedriver: chrome on windows (d41e8471997c117391cf04da6bf6bfbe)
+[30-10-2023 10:25:37.196 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - OS name = windows 10
+[30-10-2023 10:25:37.216 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - Driver instance name = chromedriver: chrome on windows (baf8987a26cbc350fd9b1189c3207d46)
+[30-10-2023 10:28:34.985 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - OS name = windows 10
+[30-10-2023 10:28:34.996 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - Driver instance name = chromedriver: chrome on windows (f6f6d72524f5e99dcd1c04fbac4b6e95)
+[30-10-2023 10:33:36.094 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - OS name = windows 10
+[30-10-2023 10:33:36.103 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - Driver instance name = firefoxdriver: firefox on windows (25513aaf-3bac-4486-887e-56bf62788555)
+[30-10-2023 10:36:08.536 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - OS name = windows 10
+[30-10-2023 10:36:08.548 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - Driver instance name = firefoxdriver: firefox on windows (ea56a554-0d28-42b4-9bb1-d85d6c42f83a)
+[30-10-2023 10:39:48.852 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - OS name = windows 10
+[30-10-2023 10:39:48.871 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - Driver instance name = firefoxdriver: firefox on windows (9d5023db-0fda-4233-87e0-ce5777640053)
+[30-10-2023 10:41:20.383 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - OS name = windows 10
+[30-10-2023 10:41:20.393 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - Driver instance name = chromedriver: chrome on windows (f6e7343770b73722dda36f1e522ba760)
+[30-10-2023 10:58:17.257 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - OS name = windows 10
+[30-10-2023 10:58:17.268 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - Driver instance name = chromedriver: chrome on windows (d03b20705bbbebebf5622622239c565f)
+[30-10-2023 11:00:20.795 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - OS name = windows 10
+[30-10-2023 11:00:20.808 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - Driver instance name = chromedriver: chrome on windows (4bb7ee728b443dd1e0515958c50838ee)
+[30-10-2023 11:03:31.319 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - OS name = windows 10
+[30-10-2023 11:03:31.363 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - Driver instance name = chromedriver: chrome on windows (e97373bb574af08eb6f4ed4cc61cdb53)
+[31-10-2023 05:46:25.212 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - OS name = windows 10
+[31-10-2023 05:46:25.294 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - Driver instance name = chromedriver: chrome on windows (1ecc45cb0de288f948506424c6f364da)
+[31-10-2023 05:49:44.463 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - OS name = windows 10
+[31-10-2023 05:49:44.521 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - Driver instance name = firefoxdriver: firefox on windows (8a8a0633-8d4f-4db9-bc05-0e0702e505d8)
+[31-10-2023 05:59:15.794 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - OS name = windows 10
+[31-10-2023 05:59:15.849 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - Driver instance name = firefoxdriver: firefox on windows (967d876a-260b-4e20-b08c-94355c9ee4b2)
+[31-10-2023 06:03:41.371 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - OS name = windows 10
+[31-10-2023 06:03:41.381 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - Driver instance name = firefoxdriver: firefox on windows (4c98591d-37e7-45d4-b00b-32b0ebc7b7c9)
+[31-10-2023 06:06:43.960 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - OS name = windows 10
+[31-10-2023 06:06:43.970 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - Driver instance name = firefoxdriver: firefox on windows (031d3f65-f370-4d08-ab09-4de4c7be214c)
+[31-10-2023 06:11:12.292 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - OS name = windows 10
+[31-10-2023 06:11:12.314 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - Driver instance name = chromedriver: chrome on windows (e653c817c9ef9ca0c7e5a820e453133a)
+[31-10-2023 06:12:03.900 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - OS name = windows 10
+[31-10-2023 06:12:03.905 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - Driver instance name = firefoxdriver: firefox on windows (f35a41d0-fb65-460b-b92b-e023cdc875f5)
+[31-10-2023 06:13:14.949 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - OS name = windows 10
+[31-10-2023 06:13:14.950 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - Driver instance name = edgedriver: msedge on windows (5f2c02551e1f1a8d0052aa3a5a8bb325)
+[31-10-2023 07:08:05.132 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - OS name = windows 10
+[31-10-2023 07:08:05.150 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - Driver instance name = chromedriver: chrome on windows (54145f30b159bbe9367e454361fa7bfe)
+[31-10-2023 07:14:41.542 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - OS name = windows 10
+[31-10-2023 07:14:41.554 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - Driver instance name = chromedriver: chrome on windows (ed981318ff3b2ed942585ebd6bba8cdc)
+[31-10-2023 07:16:13.581 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - OS name = windows 10
+[31-10-2023 07:16:13.592 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - Driver instance name = chromedriver: chrome on windows (d15b33788d889a66182d40fff7926139)
+[31-10-2023 07:18:17.668 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - OS name = windows 10
+[31-10-2023 07:18:17.685 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - Driver instance name = chromedriver: chrome on windows (7eb7678f25a1fbbc11dbfe1a4732b3ae)
+[31-10-2023 16:44:48.056 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - OS name = windows 10
+[31-10-2023 16:44:48.072 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - Driver instance name = chromedriver: chrome on windows (987932c8a135e7c9d38a9b8dd8417a3c)
+[02-11-2023 05:40:42.028 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - OS name = windows 10
+[02-11-2023 05:40:42.041 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - Driver instance name = chromedriver: chrome on windows (05af033c7493df20564935770b7c87aa)
+[03-11-2023 10:41:40.423 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - OS name = windows 10
+[03-11-2023 10:41:40.444 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - Driver instance name = chromedriver: chrome on windows (37fb9b22d3b2d7a76a1dd6a002788a06)
+[03-11-2023 11:10:04.353 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - OS name = windows 10
+[03-11-2023 11:10:04.366 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - Driver instance name = chromedriver: chrome on windows (d3e1691455480d00351bc6c44c40c6e2)
+[03-11-2023 11:14:34.103 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - OS name = windows 10
+[03-11-2023 11:14:34.113 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - Driver instance name = chromedriver: chrome on windows (544ed1b679d749f1080caa486a53d706)
+[03-11-2023 11:16:42.939 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - OS name = windows 10
+[03-11-2023 11:16:42.950 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - Driver instance name = chromedriver: chrome on windows (5fdde7e604ee893d2d22c1058dd5135e)
+[03-11-2023 16:29:52.679 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - OS name = windows 10
+[03-11-2023 16:29:52.700 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - Driver instance name = chromedriver: chrome on windows (fe914e269f1b60112db1bb52ae34d52d)
+[04-11-2023 05:39:20.683 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - OS name = windows 10
+[04-11-2023 05:39:20.711 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - Driver instance name = chromedriver: chrome on windows (fb90fff61d1c5bd907cc893ed8a69c53)
+[04-11-2023 06:04:23.049 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - OS name = windows 10
+[04-11-2023 06:04:23.079 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - Driver instance name = chromedriver: chrome on windows (38e759ce7b541ac765dead5fe2bd0998)
+[04-11-2023 06:06:05.437 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - OS name = windows 10
+[04-11-2023 06:06:05.450 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - Driver instance name = chromedriver: chrome on windows (f40353f5448b083795a4099806ace92f)
+[04-11-2023 06:07:46.658 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - OS name = windows 10
+[04-11-2023 06:07:46.677 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - Driver instance name = firefoxdriver: firefox on windows (8a3d3684-26e2-4204-9686-dc28d47759d2)
+[04-11-2023 06:10:48.830 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - OS name = windows 10
+[04-11-2023 06:10:48.855 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - Driver instance name = edgedriver: msedge on windows (bad2bf0865f6b0cc73c87511599ef499)
+[04-11-2023 06:13:45.435 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - OS name = windows 10
+[04-11-2023 06:13:45.451 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - Driver instance name = edgedriver: msedge on windows (a412593df44fb574ed2a90e9b710322f)
+[05-11-2023 06:36:36.345 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - OS name = windows 10
+[05-11-2023 06:36:36.368 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - Driver instance name = edgedriver: msedge on windows (cc47f8c0487794358c8d3f6477f862ec)
+[05-11-2023 07:25:26.717 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - OS name = windows 10
+[05-11-2023 07:25:26.733 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - Driver instance name = edgedriver: msedge on windows (28b187582eebffcd96906e3e4f030fa5)
+[05-11-2023 07:27:55.014 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - OS name = windows 10
+[05-11-2023 07:27:55.028 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - Driver instance name = chromedriver: chrome on windows (bc1c7af4711029885e090be97d9498ed)
+[05-11-2023 07:30:29.099 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - OS name = windows 10
+[05-11-2023 07:30:29.131 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - Driver instance name = chromedriver: chrome on windows (d4a9eb843b152e68be986e07d5160f27)
+[05-11-2023 07:33:24.424 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - OS name = windows 10
+[05-11-2023 07:33:24.437 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - Driver instance name = chromedriver: chrome on windows (7c6f81b8d6e2b6ba129c160c525564b1)
+[05-11-2023 07:59:36.117 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - OS name = windows 10
+[05-11-2023 07:59:36.145 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - Driver instance name = chromedriver: chrome on windows (631d0f1acf49ad2601a4eaba208f2533)
+[05-11-2023 08:20:20.958 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - OS name = windows 10
+[05-11-2023 08:20:20.968 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - Driver instance name = chromedriver: chrome on windows (31db661280aa4358e04c26745bc51b6c)
+[06-11-2023 09:55:05.774 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - OS name = windows 10
+[06-11-2023 09:55:05.795 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - Driver instance name = chromedriver: chrome on windows (f9d5f942621407697e898605c25ccdac)
+[06-11-2023 10:03:13.910 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - OS name = windows 10
+[06-11-2023 10:03:13.933 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - Driver instance name = chromedriver: chrome on windows (0fa93e26012321c4df4cf8d227a82897)
+[06-11-2023 10:14:44.533 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - OS name = windows 10
+[06-11-2023 10:14:44.562 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - Driver instance name = chromedriver: chrome on windows (a9b90ef097b456ab537f884758e09f43)
+[06-11-2023 10:36:26.592 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - OS name = windows 10
+[06-11-2023 10:36:26.607 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - Driver instance name = chromedriver: chrome on windows (c530ee5a9733db2179a95fd15caa9d50)
+[06-11-2023 10:38:08.400 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - OS name = windows 10
+[06-11-2023 10:38:08.412 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - Driver instance name = chromedriver: chrome on windows (4c527474e1699e789cdf9fc7d669eff0)
+[06-11-2023 10:46:40.386 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - OS name = windows 10
+[06-11-2023 10:46:40.403 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - Driver instance name = chromedriver: chrome on windows (2898ff2cc3525979b9a4248231fd6c3d)
+[06-11-2023 10:50:34.799 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - OS name = windows 10
+[06-11-2023 10:50:34.828 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - Driver instance name = chromedriver: chrome on windows (041f91f01a3980ab179abc011242291c)
+[06-11-2023 10:55:23.658 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - OS name = windows 10
+[06-11-2023 10:55:23.670 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - Driver instance name = chromedriver: chrome on windows (b12e6fb848d1b99a8bf8c8542135a105)
+[06-11-2023 11:08:45.478 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - OS name = windows 10
+[06-11-2023 11:08:45.487 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - Driver instance name = chromedriver: chrome on windows (319f9114a85837d402e86ff897e9c0b0)
+[07-11-2023 05:16:15.545 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - OS name = windows 10
+[07-11-2023 05:16:15.555 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - Driver instance name = chromedriver: chrome on windows (a6cee2e1fa555dc656b04eec75e822b3)
+[07-11-2023 05:18:51.225 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - OS name = windows 10
+[07-11-2023 05:18:51.245 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - Driver instance name = chromedriver: chrome on windows (3de175a0ec32a5403272b014d894c85e)
+[07-11-2023 05:27:27.996 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - OS name = windows 10
+[07-11-2023 05:27:28.006 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - Driver instance name = chromedriver: chrome on windows (e6701a4974981e25d6cdee83dd1d6699)
+[07-11-2023 05:34:38.735 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - OS name = windows 10
+[07-11-2023 05:34:38.745 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - Driver instance name = chromedriver: chrome on windows (770fc53c8cde5da0a66e6c951005fd0a)
+[07-11-2023 05:37:56.643 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - OS name = windows 10
+[07-11-2023 05:37:56.661 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - Driver instance name = chromedriver: chrome on windows (68c7b536a49ae12dd5ca7b7f098392de)
+[07-11-2023 05:45:25.269 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - OS name = windows 10
+[07-11-2023 05:45:25.278 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - Driver instance name = chromedriver: chrome on windows (6e9ff45cbc4cbe980a165f5f34657a59)
+[07-11-2023 06:06:18.585 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - OS name = windows 10
+[07-11-2023 06:06:18.614 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - Driver instance name = chromedriver: chrome on windows (f7b0644f0d0c8c864f773e79ba96b4ac)
+[07-11-2023 06:13:23.980 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - OS name = windows 10
+[07-11-2023 06:13:24.000 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - Driver instance name = chromedriver: chrome on windows (465ce5330ce4ec0c330b3bcefc19ca0c)
+[07-11-2023 06:18:00.343 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - OS name = windows 10
+[07-11-2023 06:18:00.379 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - Driver instance name = chromedriver: chrome on windows (8b9c351fac644c167b57c0b8d7e89973)
+[07-11-2023 06:22:34.522 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - OS name = windows 10
+[07-11-2023 06:22:34.534 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - Driver instance name = chromedriver: chrome on windows (35353e5facd97abe7dbd9cfeb24df65f)
+[07-11-2023 06:24:52.956 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - OS name = windows 10
+[07-11-2023 06:24:52.969 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - Driver instance name = chromedriver: chrome on windows (2e0b83e405465529373e2a1781c4e286)
+[07-11-2023 06:28:11.646 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - OS name = windows 10
+[07-11-2023 06:28:11.657 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - Driver instance name = chromedriver: chrome on windows (6aa74826b6b82a466ce9a7fb2a25a88b)
+[07-11-2023 06:30:10.961 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - OS name = windows 10
+[07-11-2023 06:30:10.974 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - Driver instance name = firefoxdriver: firefox on windows (5a3401a0-94f7-4784-9182-cd585f8e500d)
+[07-11-2023 06:41:40.216 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - OS name = windows 10
+[07-11-2023 06:41:40.235 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - Driver instance name = firefoxdriver: firefox on windows (20e71c98-ec37-4696-b39e-4ba32c28d82f)
+[07-11-2023 06:46:42.102 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - OS name = windows 10
+[07-11-2023 06:46:42.133 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - Driver instance name = firefoxdriver: firefox on windows (6c50e8ca-5b8b-4558-a5d3-94e74e0221fc)
+[07-11-2023 06:49:34.820 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - OS name = windows 10
+[07-11-2023 06:49:34.836 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - Driver instance name = firefoxdriver: firefox on windows (4d94d705-6a3f-4d78-b404-e6442829adc0)
+[07-11-2023 06:51:53.134 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - OS name = windows 10
+[07-11-2023 06:51:53.147 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - Driver instance name = firefoxdriver: firefox on windows (14ef8232-b5aa-4299-959c-49f46f3f0ddc)
+[07-11-2023 06:53:56.999 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - OS name = windows 10
+[07-11-2023 06:53:57.013 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - Driver instance name = firefoxdriver: firefox on windows (993c85e1-d781-47f9-9938-f9d170c0f70c)
+[07-11-2023 06:56:57.853 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - OS name = windows 10
+[07-11-2023 06:56:57.862 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - Driver instance name = firefoxdriver: firefox on windows (0f699610-1e90-4e72-b755-e05c60257e05)
+[07-11-2023 07:00:11.633 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - OS name = windows 10
+[07-11-2023 07:00:11.641 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - Driver instance name = chromedriver: chrome on windows (aa01600a4eb3cbc85a1143d0e971736e)
+[07-11-2023 15:54:07.532 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - OS name = windows 10
+[07-11-2023 15:54:07.548 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - Driver instance name = chromedriver: chrome on windows (b2e3cfc53f4399e366ccfdec75c4d2fe)
+[07-11-2023 16:07:41.643 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - OS name = windows 10
+[07-11-2023 16:07:41.653 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - Driver instance name = chromedriver: chrome on windows (0eba5b9eb3283c4437df77afd6929890)
+[07-11-2023 16:09:38.825 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - OS name = windows 10
+[07-11-2023 16:09:38.836 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - Driver instance name = chromedriver: chrome on windows (3a02377b8d318c787a1752e02095b036)
+[07-11-2023 16:11:08.951 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - OS name = windows 10
+[07-11-2023 16:11:08.959 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - Driver instance name = chromedriver: chrome on windows (013ee64863ce15d4bbb0866e0510e959)
+[07-11-2023 16:47:13.668 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - OS name = windows 10
+[07-11-2023 16:47:13.682 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - Driver instance name = chromedriver: chrome on windows (979ba0d591a1eb7294402580b5837201)
+[07-11-2023 16:51:48.418 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - OS name = windows 10
+[07-11-2023 16:51:48.429 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - Driver instance name = chromedriver: chrome on windows (09960db0c3171cd3422d0c6681fd4c14)
+[08-11-2023 10:55:57.918 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - OS name = windows 10
+[08-11-2023 10:55:57.930 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - Driver instance name = chromedriver: chrome on windows (caf7dcc4529f131786ed38c1045a07bc)
+[08-11-2023 11:00:05.769 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - OS name = windows 10
+[08-11-2023 11:00:05.789 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - Driver instance name = chromedriver: chrome on windows (a1008a478d2efd31cc6c058fa1619622)
+[08-11-2023 11:02:46.775 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - OS name = windows 10
+[08-11-2023 11:02:46.826 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - Driver instance name = chromedriver: chrome on windows (0e5d7f0542ce829b2cdc76234e1863b8)
+[08-11-2023 12:43:39.125 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - OS name = windows 10
+[08-11-2023 12:43:39.140 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - Driver instance name = chromedriver: chrome on windows (09c609d67c945b909c0b73551b4fc571)
+[09-11-2023 05:37:32.658 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - OS name = windows 10
+[09-11-2023 05:37:32.677 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - Driver instance name = chromedriver: chrome on windows (757f266a1b1c7b0ca093d0bd8a3967bd)
+[09-11-2023 05:41:47.409 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - OS name = windows 10
+[09-11-2023 05:41:47.437 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - Driver instance name = chromedriver: chrome on windows (78c83cd3a428fc1c7bbc404ce8d39271)
+[09-11-2023 05:46:23.893 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - OS name = windows 10
+[09-11-2023 05:46:23.915 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - Driver instance name = chromedriver: chrome on windows (b3ee1e4e1e64c36034d99795f474316a)
+[09-11-2023 05:52:24.711 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - OS name = windows 10
+[09-11-2023 05:52:24.731 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - Driver instance name = chromedriver: chrome on windows (c76776ef0336315107c6b1405ed51a4e)
+[09-11-2023 05:57:02.272 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - OS name = windows 10
+[09-11-2023 05:57:02.292 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - Driver instance name = chromedriver: chrome on windows (54b8745450760afa30b24ad7676ed0d7)
+[09-11-2023 06:00:34.703 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - OS name = windows 10
+[09-11-2023 06:00:34.725 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - Driver instance name = chromedriver: chrome on windows (04b99e0007f65f55349bcbe0b1096beb)
+[09-11-2023 06:21:48.740 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - OS name = windows 10
+[09-11-2023 06:21:48.758 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - Driver instance name = chromedriver: chrome on windows (c6886d33a4b5a2830e550c4488f0dc1e)
+[09-11-2023 06:27:14.323 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - OS name = windows 10
+[09-11-2023 06:27:14.340 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - Driver instance name = chromedriver: chrome on windows (c442354135fc94ab3dec6846f6b73cef)
+[09-11-2023 07:10:21.991 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - OS name = windows 10
+[09-11-2023 07:10:22.004 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - Driver instance name = chromedriver: chrome on windows (54f9517fc9229ade67415759972b8b84)
+[09-11-2023 07:12:14.913 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - OS name = windows 10
+[09-11-2023 07:12:14.922 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - Driver instance name = chromedriver: chrome on windows (79198837aee8bf9d7eaf656678c50d75)
+[09-11-2023 07:15:30.406 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - OS name = windows 10
+[09-11-2023 07:15:30.417 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - Driver instance name = chromedriver: chrome on windows (be2d88670b56f2da91c7e525b12bcbdc)
+[09-11-2023 07:17:59.441 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - OS name = windows 10
+[09-11-2023 07:17:59.452 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - Driver instance name = chromedriver: chrome on windows (f413c8c775b922edba8e8b72dd29dd0f)
+[09-11-2023 07:26:01.925 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - OS name = windows 10
+[09-11-2023 07:26:01.941 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - Driver instance name = chromedriver: chrome on windows (5f33c1bc1e2bd3f563f3229e9feae4e8)
+[09-11-2023 07:28:36.482 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - OS name = windows 10
+[09-11-2023 07:28:36.495 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - Driver instance name = chromedriver: chrome on windows (7ccc1f1d76826ae0ddca3332414daa77)
+[09-11-2023 07:30:51.369 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - OS name = windows 10
+[09-11-2023 07:30:51.377 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - Driver instance name = chromedriver: chrome on windows (43b1d8fee64eb1e29f5d2288c39258d5)
+[09-11-2023 17:19:58.626 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - OS name = windows 10
+[09-11-2023 17:19:58.650 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - Driver instance name = chromedriver: chrome on windows (77e1b0d43cb5420b11eb2840147d9b65)
+[09-11-2023 17:22:53.228 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - OS name = windows 10
+[09-11-2023 17:22:53.246 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - Driver instance name = chromedriver: chrome on windows (0712ee8636d75d317edb7cc51da1ba5a)
+[09-11-2023 17:27:32.695 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - OS name = windows 10
+[09-11-2023 17:27:32.705 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - Driver instance name = firefoxdriver: firefox on windows (ab225a00-e6a8-4328-ac57-c783cfab6be1)
+[09-11-2023 17:27:32.710 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - Tried to run command without establishing a connection
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [ab225a00-e6a8-4328-ac57-c783cfab6be1, deleteAllCookies {}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 119.0.1, moz:accessibilityChecks: false, moz:buildID: 20231106151204, moz:debuggerAddress: 127.0.0.1:9776, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 14628, moz:profile: C:\Users\ADMINI~1\AppData\L..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:9776/devtool..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: ab225a00-e6a8-4328-ac57-c783cfab6be1
+[09-11-2023 17:29:08.735 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - OS name = windows 10
+[09-11-2023 17:29:08.751 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - Driver instance name = firefoxdriver: firefox on windows (0fd6bd19-2ac8-4ac5-982c-10e3cbb64f52)
+[09-11-2023 17:29:08.765 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - Tried to run command without establishing a connection
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [0fd6bd19-2ac8-4ac5-982c-10e3cbb64f52, deleteAllCookies {}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 119.0.1, moz:accessibilityChecks: false, moz:buildID: 20231106151204, moz:debuggerAddress: 127.0.0.1:10287, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 11244, moz:profile: C:\Users\ADMINI~1\AppData\L..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:10287/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 0fd6bd19-2ac8-4ac5-982c-10e3cbb64f52
+[09-11-2023 17:30:07.312 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - OS name = windows 10
+[09-11-2023 17:30:07.323 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - Driver instance name = firefoxdriver: firefox on windows (6b69afa5-9be1-4a29-96d3-06b100f3e44f)
+[09-11-2023 17:30:07.330 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - Tried to run command without establishing a connection
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [6b69afa5-9be1-4a29-96d3-06b100f3e44f, deleteAllCookies {}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 119.0.1, moz:accessibilityChecks: false, moz:buildID: 20231106151204, moz:debuggerAddress: 127.0.0.1:23248, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 6140, moz:profile: C:\Users\ADMINI~1\AppData\L..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:23248/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 6b69afa5-9be1-4a29-96d3-06b100f3e44f
+[09-11-2023 17:32:06.268 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - OS name = windows 10
+[09-11-2023 17:32:06.285 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - Driver instance name = firefoxdriver: firefox on windows (78c2c05f-de51-459f-a14b-5a788972a504)
+[09-11-2023 17:32:06.295 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - Tried to run command without establishing a connection
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [78c2c05f-de51-459f-a14b-5a788972a504, deleteAllCookies {}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 119.0.1, moz:accessibilityChecks: false, moz:buildID: 20231106151204, moz:debuggerAddress: 127.0.0.1:22052, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 15408, moz:profile: C:\Users\ADMINI~1\AppData\L..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:22052/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 78c2c05f-de51-459f-a14b-5a788972a504
+[09-11-2023 17:33:57.207 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - OS name = windows 10
+[09-11-2023 17:33:57.222 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - Driver instance name = firefoxdriver: firefox on windows (1e7421bc-db03-4bc8-8c23-17506a584b99)
+[09-11-2023 17:37:37.408 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - OS name = windows 10
+[09-11-2023 17:37:37.426 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - Driver instance name = firefoxdriver: firefox on windows (4659623a-2d95-45de-ba88-7fbec3ac83dc)
+[09-11-2023 17:40:49.876 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - OS name = windows 10
+[09-11-2023 17:40:49.897 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - Driver instance name = firefoxdriver: firefox on windows (d0ae8b62-175c-4f05-948f-0779cd8d372e)
+[09-11-2023 17:44:00.313 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - OS name = windows 10
+[09-11-2023 17:44:00.320 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - Driver instance name = firefoxdriver: firefox on windows (e06a3071-153c-4079-939f-903be760215a)
+[09-11-2023 17:46:44.989 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - OS name = windows 10
+[09-11-2023 17:46:45.004 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - Driver instance name = firefoxdriver: firefox on windows (045b6b2e-2929-4f3d-b165-d3526101fae1)
+[09-11-2023 17:49:48.210 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - OS name = windows 10
+[09-11-2023 17:49:48.235 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - Driver instance name = firefoxdriver: firefox on windows (f947c2f5-7895-4a04-bac8-467de7fac777)
+[09-11-2023 17:57:13.513 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - OS name = windows 10
+[09-11-2023 17:57:13.530 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - Driver instance name = firefoxdriver: firefox on windows (16db2c51-601d-46f1-9ab2-93d9975d3de3)
+[09-11-2023 17:59:58.843 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - OS name = windows 10
+[09-11-2023 17:59:58.851 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - Driver instance name = firefoxdriver: firefox on windows (2c0467ac-5fc2-4e12-b64b-baf0640ee9a9)
+[09-11-2023 18:04:56.195 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - OS name = windows 10
+[09-11-2023 18:04:56.214 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - Driver instance name = chromedriver: chrome on windows (36f7b5c839047f3e682fa311c6e7ddad)
+[10-11-2023 05:31:02.378 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - OS name = windows 10
+[10-11-2023 05:31:02.393 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - Driver instance name = chromedriver: chrome on windows (c2ac39746bf0f8a58610f1b588f0ad02)
+[10-11-2023 05:36:58.163 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - OS name = windows 10
+[10-11-2023 05:36:58.175 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - Driver instance name = chromedriver: chrome on windows (9206c8f333725358d997d57096c9d61d)
+[10-11-2023 05:42:33.266 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - OS name = windows 10
+[10-11-2023 05:42:33.284 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - Driver instance name = chromedriver: chrome on windows (31218c3bc060e28c47b8487658908a44)
+[10-11-2023 05:48:46.143 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - OS name = windows 10
+[10-11-2023 05:48:46.160 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - Driver instance name = chromedriver: chrome on windows (8f837a2fabb72ee0a35be131846ce8d7)
+[10-11-2023 05:48:46.165 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=118.0.5993.72)
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [8f837a2fabb72ee0a35be131846ce8d7, deleteAllCookies {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 118.0.5993.72, chrome: {chromedriverVersion: 118.0.5993.70 (e52f33f30b91..., userDataDir: C:\Windows\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60316}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60316/devtoo..., se:cdpVersion: 118.0.5993.72, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 8f837a2fabb72ee0a35be131846ce8d7
+[10-11-2023 06:16:32.305 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - OS name = windows 10
+[10-11-2023 06:16:32.320 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - Driver instance name = chromedriver: chrome on windows (54c6fc29be6d590378203ee78a9853b6)
+[10-11-2023 06:16:32.325 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=118.0.5993.72)
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [54c6fc29be6d590378203ee78a9853b6, deleteAllCookies {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 118.0.5993.72, chrome: {chromedriverVersion: 118.0.5993.70 (e52f33f30b91..., userDataDir: C:\Windows\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59591}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59591/devtoo..., se:cdpVersion: 118.0.5993.72, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 54c6fc29be6d590378203ee78a9853b6
+[10-11-2023 06:19:51.028 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - OS name = windows 10
+[10-11-2023 06:19:51.039 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - Driver instance name = chromedriver: chrome on windows (d79bfbf6cc2f8cfa3b079a39fa11e94f)
+[10-11-2023 06:24:41.864 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - OS name = windows 10
+[10-11-2023 06:24:41.885 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - Driver instance name = chromedriver: chrome on windows (2f2a08ae300ca2a71d1c913bd64567d9)
+[10-11-2023 06:30:29.133 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - OS name = windows 10
+[10-11-2023 06:30:29.142 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - Driver instance name = chromedriver: chrome on windows (87141d0e3c2a7758139f6b601cb9826e)
+[10-11-2023 06:30:29.146 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=118.0.5993.72)
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [87141d0e3c2a7758139f6b601cb9826e, deleteAllCookies {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 118.0.5993.72, chrome: {chromedriverVersion: 118.0.5993.70 (e52f33f30b91..., userDataDir: C:\Windows\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57836}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57836/devtoo..., se:cdpVersion: 118.0.5993.72, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 87141d0e3c2a7758139f6b601cb9826e
+[10-11-2023 06:34:00.130 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - OS name = windows 10
+[10-11-2023 06:34:00.157 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - Driver instance name = firefoxdriver: firefox on windows (4b6b6f60-1f3a-4992-a742-3f283b4609a0)
+[10-11-2023 06:34:00.163 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - Tried to run command without establishing a connection
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [4b6b6f60-1f3a-4992-a742-3f283b4609a0, deleteAllCookies {}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 119.0.1, moz:accessibilityChecks: false, moz:buildID: 20231106151204, moz:debuggerAddress: 127.0.0.1:14360, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 17488, moz:profile: C:\Users\ADMINI~1\AppData\L..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:14360/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 4b6b6f60-1f3a-4992-a742-3f283b4609a0
+[10-11-2023 06:38:58.848 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - OS name = windows 10
+[10-11-2023 06:38:58.875 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - Driver instance name = firefoxdriver: firefox on windows (0b19377b-c862-4d9d-8e71-69babf2b90b8)
+[10-11-2023 06:42:02.591 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - OS name = windows 10
+[10-11-2023 06:42:02.624 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - Driver instance name = firefoxdriver: firefox on windows (d382b83f-834e-4798-a083-60d18634895d)
+[10-11-2023 06:42:02.630 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - Tried to run command without establishing a connection
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [d382b83f-834e-4798-a083-60d18634895d, deleteAllCookies {}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 119.0.1, moz:accessibilityChecks: false, moz:buildID: 20231106151204, moz:debuggerAddress: 127.0.0.1:40215, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 6752, moz:profile: C:\Users\ADMINI~1\AppData\L..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:40215/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: d382b83f-834e-4798-a083-60d18634895d
+[10-11-2023 06:45:20.254 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - OS name = windows 10
+[10-11-2023 06:45:20.276 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - Driver instance name = firefoxdriver: firefox on windows (69463b12-7f97-47f6-a13d-20edce64246c)
+[10-11-2023 06:50:22.347 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - OS name = windows 10
+[10-11-2023 06:50:22.358 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - Driver instance name = firefoxdriver: firefox on windows (2156724e-838e-4521-b6ed-f2a549db90e1)
+[10-11-2023 06:50:22.365 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - Tried to run command without establishing a connection
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [2156724e-838e-4521-b6ed-f2a549db90e1, deleteAllCookies {}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 119.0.1, moz:accessibilityChecks: false, moz:buildID: 20231106151204, moz:debuggerAddress: 127.0.0.1:6827, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 9400, moz:profile: C:\Users\ADMINI~1\AppData\L..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:6827/devtool..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 2156724e-838e-4521-b6ed-f2a549db90e1
+[10-11-2023 06:54:18.390 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - OS name = windows 10
+[10-11-2023 06:54:18.403 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - Driver instance name = firefoxdriver: firefox on windows (5bf68410-d4f2-4327-a98e-0ac14d20cd5b)
+[10-11-2023 06:54:18.407 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - Tried to run command without establishing a connection
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [5bf68410-d4f2-4327-a98e-0ac14d20cd5b, deleteAllCookies {}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 119.0.1, moz:accessibilityChecks: false, moz:buildID: 20231106151204, moz:debuggerAddress: 127.0.0.1:47371, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 18796, moz:profile: C:\Users\ADMINI~1\AppData\L..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:47371/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 5bf68410-d4f2-4327-a98e-0ac14d20cd5b
+[10-11-2023 06:58:39.699 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - OS name = windows 10
+[10-11-2023 06:58:39.706 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - Driver instance name = firefoxdriver: firefox on windows (ad221101-8319-47e9-bd95-384320130a3a)
+[10-11-2023 06:58:39.710 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - Tried to run command without establishing a connection
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [ad221101-8319-47e9-bd95-384320130a3a, deleteAllCookies {}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 119.0.1, moz:accessibilityChecks: false, moz:buildID: 20231106151204, moz:debuggerAddress: 127.0.0.1:15665, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 952, moz:profile: C:\Users\ADMINI~1\AppData\L..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:15665/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: ad221101-8319-47e9-bd95-384320130a3a
+[10-11-2023 07:08:58.442 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - OS name = windows 10
+[10-11-2023 07:08:58.455 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - Driver instance name = chromedriver: chrome on windows (1013ff3a57535803ce3b398bb7b6a93c)
+[10-11-2023 07:08:58.459 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=118.0.5993.72)
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [1013ff3a57535803ce3b398bb7b6a93c, deleteAllCookies {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 118.0.5993.72, chrome: {chromedriverVersion: 118.0.5993.70 (e52f33f30b91..., userDataDir: C:\Windows\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57232}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57232/devtoo..., se:cdpVersion: 118.0.5993.72, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1013ff3a57535803ce3b398bb7b6a93c
+[10-11-2023 07:15:54.473 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - OS name = windows 10
+[10-11-2023 07:15:54.486 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - Driver instance name = chromedriver: chrome on windows (f46b8e4e09d0692516bb39af8d1fa169)
+[10-11-2023 07:15:54.492 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=118.0.5993.72)
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f46b8e4e09d0692516bb39af8d1fa169, deleteAllCookies {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 118.0.5993.72, chrome: {chromedriverVersion: 118.0.5993.70 (e52f33f30b91..., userDataDir: C:\Windows\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57370}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57370/devtoo..., se:cdpVersion: 118.0.5993.72, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f46b8e4e09d0692516bb39af8d1fa169
+[10-11-2023 07:18:41.512 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - OS name = windows 10
+[10-11-2023 07:18:41.524 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - Driver instance name = chromedriver: chrome on windows (d0eae9e70e06b745155522ce9a1d70a7)
+[10-11-2023 07:18:41.528 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=118.0.5993.72)
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d0eae9e70e06b745155522ce9a1d70a7, deleteAllCookies {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 118.0.5993.72, chrome: {chromedriverVersion: 118.0.5993.70 (e52f33f30b91..., userDataDir: C:\Windows\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57424}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57424/devtoo..., se:cdpVersion: 118.0.5993.72, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d0eae9e70e06b745155522ce9a1d70a7
+[10-11-2023 07:22:16.709 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - OS name = windows 10
+[10-11-2023 07:22:16.741 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - Driver instance name = chromedriver: chrome on windows (6883ceeb5c47a412acfe0f2df803ac03)
+[10-11-2023 07:30:33.002 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - OS name = windows 10
+[10-11-2023 07:30:33.014 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - Driver instance name = chromedriver: chrome on windows (497e20570626fc38a4b1e3ded7d7a833)
+[10-11-2023 07:30:33.020 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=118.0.5993.72)
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [497e20570626fc38a4b1e3ded7d7a833, deleteAllCookies {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 118.0.5993.72, chrome: {chromedriverVersion: 118.0.5993.70 (e52f33f30b91..., userDataDir: C:\Windows\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60370}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60370/devtoo..., se:cdpVersion: 118.0.5993.72, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 497e20570626fc38a4b1e3ded7d7a833
+[10-11-2023 07:33:52.999 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - OS name = windows 10
+[10-11-2023 07:33:53.017 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - Driver instance name = chromedriver: chrome on windows (3078bfac8f3d24eb9a6c7a257f31bed1)
+[10-11-2023 10:07:05.659 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - OS name = windows 10
+[10-11-2023 10:07:05.673 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - Driver instance name = chromedriver: chrome on windows (3e13745b14bda121e88957090ef7a27d)
+[10-11-2023 10:13:15.064 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - OS name = windows 10
+[10-11-2023 10:13:15.076 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - Driver instance name = chromedriver: chrome on windows (70124d73c3b17743187410aa70dbbdf8)
+[10-11-2023 10:13:15.079 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=118.0.5993.72)
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [70124d73c3b17743187410aa70dbbdf8, deleteAllCookies {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 118.0.5993.72, chrome: {chromedriverVersion: 118.0.5993.70 (e52f33f30b91..., userDataDir: C:\Windows\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50441}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50441/devtoo..., se:cdpVersion: 118.0.5993.72, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 70124d73c3b17743187410aa70dbbdf8
+[10-11-2023 10:17:24.300 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - OS name = windows 10
+[10-11-2023 10:17:24.317 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - Driver instance name = chromedriver: chrome on windows (a6dfc641075693dbf149bcae45271347)
+[10-11-2023 10:27:19.883 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - OS name = windows 10
+[10-11-2023 10:27:19.898 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - Driver instance name = chromedriver: chrome on windows (e33e1a7655c18a609ab8167f006ebd35)
+[10-11-2023 10:27:19.909 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - disconnected: not connected to DevTools
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: chrome=118.0.5993.72)
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e33e1a7655c18a609ab8167f006ebd35, deleteAllCookies {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 118.0.5993.72, chrome: {chromedriverVersion: 118.0.5993.70 (e52f33f30b91..., userDataDir: C:\Windows\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50986}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50986/devtoo..., se:cdpVersion: 118.0.5993.72, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e33e1a7655c18a609ab8167f006ebd35
+[10-11-2023 10:34:17.733 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - OS name = windows 10
+[10-11-2023 10:34:17.740 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - Driver instance name = chromedriver: chrome on windows (221c3bc5beb41d04f50c9ab1ec76cadb)
+[10-11-2023 10:44:56.705 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - OS name = windows 10
+[10-11-2023 10:44:56.716 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - Driver instance name = chromedriver: chrome on windows (555c34a2a9ea26290ee8b15f3a65e523)
+[10-11-2023 10:52:27.464 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - OS name = windows 10
+[10-11-2023 10:52:27.479 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - Driver instance name = chromedriver: chrome on windows (093eb9bb8d804079f4b4cb3fd9a70179)
+[10-11-2023 11:01:59.769 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - OS name = windows 10
+[10-11-2023 11:01:59.786 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - Driver instance name = chromedriver: chrome on windows (a86afe6d7e06372e7476aee8d4f06747)
+[10-11-2023 11:01:59.801 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - unexpected alert open: {Alert text : Are you sure you want to delete this item?}
+  (Session info: chrome=118.0.5993.72): Are you sure you want to delete this item?
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a86afe6d7e06372e7476aee8d4f06747, deleteAllCookies {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 118.0.5993.72, chrome: {chromedriverVersion: 118.0.5993.70 (e52f33f30b91..., userDataDir: C:\Windows\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52144}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52144/devtoo..., se:cdpVersion: 118.0.5993.72, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a86afe6d7e06372e7476aee8d4f06747
+[10-11-2023 11:22:55.785 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - OS name = windows 10
+[10-11-2023 11:22:55.798 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - Driver instance name = chromedriver: chrome on windows (10bf47ed46e4cbfa310cbf765b04349e)
+[10-11-2023 11:22:55.803 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=118.0.5993.72)
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [10bf47ed46e4cbfa310cbf765b04349e, deleteAllCookies {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 118.0.5993.72, chrome: {chromedriverVersion: 118.0.5993.70 (e52f33f30b91..., userDataDir: C:\Windows\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63986}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63986/devtoo..., se:cdpVersion: 118.0.5993.72, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 10bf47ed46e4cbfa310cbf765b04349e
+[10-11-2023 12:56:31.141 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - OS name = windows 10
+[10-11-2023 12:56:31.156 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - Driver instance name = chromedriver: chrome on windows (70256198d3c8562676272321c3dcff45)
+[10-11-2023 12:56:31.166 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=118.0.5993.72)
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [70256198d3c8562676272321c3dcff45, deleteAllCookies {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 118.0.5993.72, chrome: {chromedriverVersion: 118.0.5993.70 (e52f33f30b91..., userDataDir: C:\Windows\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56246}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56246/devtoo..., se:cdpVersion: 118.0.5993.72, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 70256198d3c8562676272321c3dcff45
+[10-11-2023 13:02:50.228 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - OS name = windows 10
+[10-11-2023 13:02:50.243 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - Driver instance name = chromedriver: chrome on windows (8577719cefce136d8b953490d9707b61)
+[10-11-2023 13:16:40.742 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - OS name = windows 10
+[10-11-2023 13:16:40.753 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - Driver instance name = chromedriver: chrome on windows (64ead97f469f090e1189e20782d2e4db)
+[10-11-2023 16:03:12.797 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - OS name = windows 10
+[10-11-2023 16:03:12.813 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - Driver instance name = chromedriver: chrome on windows (8bd6af6a421d4b78269eee9f101d4172)
+[10-11-2023 17:21:11.062 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - OS name = windows 10
+[10-11-2023 17:21:11.080 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - Driver instance name = chromedriver: chrome on windows (88629a289a89cd4c6e27ea63d6eb5109)
+[11-11-2023 05:40:38.196 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - OS name = windows 10
+[11-11-2023 05:40:38.217 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - Driver instance name = firefoxdriver: firefox on windows (b8e3314b-9a28-4220-9de6-b7fe90aa974a)
+[11-11-2023 11:13:56.797 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - OS name = windows 10
+[11-11-2023 11:13:56.811 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - Driver instance name = firefoxdriver: firefox on windows (06d5ea3d-8f5c-4588-8d47-275565f9321d)
+[11-11-2023 11:13:56.820 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - Tried to run command without establishing a connection
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [06d5ea3d-8f5c-4588-8d47-275565f9321d, deleteAllCookies {}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 119.0.1, moz:accessibilityChecks: false, moz:buildID: 20231106151204, moz:debuggerAddress: 127.0.0.1:43070, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 14340, moz:profile: C:\Users\ADMINI~1\AppData\L..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:43070/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 06d5ea3d-8f5c-4588-8d47-275565f9321d
+[20-11-2023 09:29:42.899 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - OS name = windows 10
+[20-11-2023 09:29:42.915 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - Driver instance name = firefoxdriver: firefox on windows (ac309f34-29c1-4a5a-a4d8-d0d30a0ba6b7)
+[20-11-2023 09:29:42.921 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - Tried to run command without establishing a connection
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [ac309f34-29c1-4a5a-a4d8-d0d30a0ba6b7, deleteAllCookies {}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 119.0.1, moz:accessibilityChecks: false, moz:buildID: 20231106151204, moz:debuggerAddress: 127.0.0.1:35738, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 4520, moz:profile: C:\Users\ADMINI~1\AppData\L..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:35738/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: ac309f34-29c1-4a5a-a4d8-d0d30a0ba6b7
+[20-11-2023 09:34:18.959 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - OS name = windows 10
+[20-11-2023 09:34:18.976 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - Driver instance name = firefoxdriver: firefox on windows (2e401395-edf0-4db4-9db4-54dac8c9943b)
+[20-11-2023 09:34:19.342 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - Failed to decode response from marionette
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [2e401395-edf0-4db4-9db4-54dac8c9943b, deleteAllCookies {}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 119.0.1, moz:accessibilityChecks: false, moz:buildID: 20231106151204, moz:debuggerAddress: 127.0.0.1:11225, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 18936, moz:profile: C:\Users\ADMINI~1\AppData\L..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:11225/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 2e401395-edf0-4db4-9db4-54dac8c9943b
+[20-11-2023 11:14:14.738 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - OS name = windows 10
+[20-11-2023 11:14:14.762 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - Driver instance name = chromedriver: chrome on windows (780fea9c36f5bcda03df843213927ae7)
+[21-11-2023 09:54:59.152 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - OS name = windows 10
+[21-11-2023 09:54:59.165 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - Driver instance name = chromedriver: chrome on windows (df6c341416f01e72c3ac35155cf49473)

@@ -2,14 +2,15 @@ package pageObjects.user;
 
 import org.openqa.selenium.WebDriver;
 
-import commons.BasePage;
+import commons.BaseElement;
 import io.qameta.allure.Step;
 import pageUIs.user.RecentlyViewPageUI;
 
-public class RecentlyViewPageObject extends BasePage {
+public class RecentlyViewPageObject extends BaseElement {
 	WebDriver driver;
 
 	public RecentlyViewPageObject(WebDriver driver) {
+		super(driver);
 		this.driver = driver;
 	}
 

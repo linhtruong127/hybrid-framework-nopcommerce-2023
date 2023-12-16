@@ -7,16 +7,17 @@ import java.util.List;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
-import commons.BasePage;
+import commons.BaseElement;
 import commons.PageGeneratorManager;
 import io.qameta.allure.Step;
 import pageUIs.user.HomePageUI;
 
-public class HomePageObject extends BasePage {
+public class HomePageObject extends BaseElement {
 
 	WebDriver driver;
 
 	public HomePageObject(WebDriver driver) {
+		super(driver);
 		this.driver = driver;
 	}
 
@@ -34,17 +35,16 @@ public class HomePageObject extends BasePage {
 		return PageGeneratorManager.getUserLoginPage(driver);
 	}
 
-	@Step("Click to logo homepage link")
-	public HomePageObject clickToLogoLink() {
-		waitForElementClickable(driver, HomePageUI.LOGO_LINK);
-		clickToElement(driver, HomePageUI.LOGO_LINK);
-		return PageGeneratorManager.getHomePage(driver);
-	}
-
 	@Step("Click to my account link")
 	public CustomerPageObject clickToMyaccountLink() {
 		waitForElementClickable(driver, HomePageUI.MYACCOUNT_LINK);
 		clickToElement(driver, HomePageUI.MYACCOUNT_LINK);
+		return PageGeneratorManager.getCustomerPage(driver);
+	}
+	@Step("Open my account link")
+	public CustomerPageObject openMyaccountLink() {
+		String myAccountLink = getElementAttribute(driver, HomePageUI.MYACCOUNT_LINK, "href");
+		openPageURL(driver, myAccountLink);
 		return PageGeneratorManager.getCustomerPage(driver);
 	}
 
@@ -366,7 +366,7 @@ public class HomePageObject extends BasePage {
 		clickToElement(driver, HomePageUI.UPDATE_BUTTON);
 
 	}
-
+	@Step("Hover To shopping cart icon")
 	public void hoverToShoppingCartIcon() {
 		waitForElementVisible(driver, HomePageUI.SHOPPING_CART_LINK);
 		hoverToElement(driver, HomePageUI.SHOPPING_CART_LINK);

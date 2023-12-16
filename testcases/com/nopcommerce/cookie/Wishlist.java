@@ -1,4 +1,4 @@
-package com.nopcommerce.account;
+package com.nopcommerce.cookie;
 
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
@@ -15,7 +15,7 @@ import pageObjects.user.WishlistPageObject;
 import pageObjects.user.CompareListPageObject;
 import pageObjects.user.RecentlyViewPageObject;
 
-public class NopCommerce_Wishlist_Compare_RecentReview extends BaseTest {
+public class Wishlist extends BaseTest {
 	private WebDriver driver;
 
 	private HomePageObject homePage;
@@ -29,13 +29,17 @@ public class NopCommerce_Wishlist_Compare_RecentReview extends BaseTest {
 	public void beforeClass(String browserName) {
 		driver = getBrowserName(browserName);
 		homePage = PageGeneratorManager.getHomePage(driver);
+		loginPage = homePage.clickToLoginLink();
+
+		loginPage.setCookies(driver, Common_Register.cookies);
+		loginPage.sleepInSecond(5);
+		loginPage.refreshCurrentPage(driver);
 
 	}
 
 	@Test
 	public void Wishlist_01_Add_Product_To_Wishlist() {
-		loginPage = homePage.clickToLoginLink();
-		loginPage.loginToUser("lisatest@gmail.com", "123456");
+
 		homePage.clickToProductName("Apple MacBook Pro 13-inch");
 		homePage.clickToAddToWishlistButton();
 		Assert.assertEquals(homePage.getSuccessMessage(), "The product has been added to your wishlist");
@@ -43,8 +47,7 @@ public class NopCommerce_Wishlist_Compare_RecentReview extends BaseTest {
 		homePage.refreshCurrentPage(driver);
 		wishlistPage = homePage.clickToWishlistLink();
 		Assert.assertTrue(wishlistPage.isProductDisplayToWishlist("Apple MacBook Pro 13-inch"));
-		// wishlistPage.clickToWishlistUrlForSharing();
-
+	
 	}
 
 	@Test
