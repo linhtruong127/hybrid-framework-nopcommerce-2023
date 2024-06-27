@@ -39,10 +39,9 @@ public class AdminCustomersPageObject extends AdminSideBarPageObject {
 
 	@Step("Select Item In Dropdown List Customer Roles")
 	public void selectCustomerRolesInDropdownList(String itemDropdown) {
-		clickToElementByJS(driver, AdminCustomersPageUI.CLOSE_DEFAULT_ITEM_CUSTOMER_ROLE);
-		// waitForElementVisible(driver, AdminCustomersPageUI.CUSTOMER_ROLE_DROPDOWN, itemDropdown);
-		// clickToElementByJS(driver, AdminCustomersPageUI.CUSTOMER_ROLE_DROPDOWN, itemDropdown);
-		selectItemOfCustomDropdown(driver, AdminCustomersPageUI.CUSTOMER_ROLE_BOX, AdminCustomersPageUI.CUSTOMER_ROLE_DROPDOWN, itemDropdown);
+		//clickToElementByJS(driver, AdminCustomersPageUI.CLOSE_DEFAULT_ITEM_CUSTOMER_ROLE);
+		waitForElementClickable(driver, AdminCustomersPageUI.CUSTOMER_ROLE_DROPDOWN);
+		selectItemOfCustomDropdown(driver, AdminCustomersPageUI.CUSTOMER_ROLE_DROPDOWN, AdminCustomersPageUI.CUSTOMER_ROLE_BOX, itemDropdown);
 	}
 
 	@Step("Input value to Admin Comment TextBox")

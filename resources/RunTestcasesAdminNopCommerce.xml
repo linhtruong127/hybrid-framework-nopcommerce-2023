@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="none" name="NopCommerce-Admin">
+
+	<parameter name="adminUrl" value="https://admin-demo.nopcommerce.com/" />
+	<listeners>
+		<listener class-name="commons.MethodListener" />
+		<listener class-name="reportConfig.AllureTestListener" />
+<!-- 	<listener class-name="org.uncommons.reportng.HTMLReporter" />
+		<listener class-name="org.uncommons.reportng.JUnitXMLReporter" /> -->	
+
+	</listeners>
+	<test name="Run On Firefox">
+		<parameter name="browser" value="firefox" />
+		<classes>
+			<class
+				name="com.nopcommerce.admin.NopCommerce_08_Admin" />
+		</classes>
+	</test>
+<!-- <test name="Run On Firefox">
+	<parameter name="browser" value="firefox" />
+	<classes>
+		<class name="com.nopcommerce.admin.NopCommerce_08_Admin" />
+	</classes>
+</test>
+
+<test name="Run On Edge">
+	<parameter name="browser" value="Edge" />
+	<classes>
+		<class name="com.nopcommerce.admin.NopCommerce_08_Admin" />
+	</classes>
+</test>  -->
+</suite> 

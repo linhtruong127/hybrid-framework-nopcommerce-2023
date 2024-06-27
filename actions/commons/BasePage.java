@@ -235,9 +235,8 @@ public class BasePage {
 		
 		for (WebElement item : speedDropdownItems) {
 			if (item.getText().trim().equals(expectedItem)) {
-				item.click();
-				
 				sleepInSecond(1);
+				item.click();
 				break;
 			}
 		}
@@ -256,7 +255,6 @@ public class BasePage {
 				((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", item);
 				sleepInSecond(2);
 				new WebDriverWait(driver, Duration.ofSeconds(longTimeout)).until(ExpectedConditions.elementToBeClickable(item));
-				//((JavascriptExecutor) driver).executeScript("arguments[0].click();", expectedItem);
 				item.click();
 				sleepInSecond(1);
 				break;

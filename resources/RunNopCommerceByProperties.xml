@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "testng-1.0.dtd">
+<suite parallel="none" name="NopCommerce">
+	
+	<listeners>
+		<listener class-name="commons.MethodListener" />
+		<listener class-name="reportConfig.AllureTestListener" />
+		<listener class-name="org.uncommons.reportng.HTMLReporter" />
+		<listener class-name="org.uncommons.reportng.JUnitXMLReporter" />
+	</listeners>
+	<parameter name="server" value="dev" />
+	
+	<test name="Run On Chrome" preserve-order="true">
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="com.nopcommerce.account.Level_26_Environment_03_Java_Properties" />
+<!--			<class name="com.nopcommerce.share.Common_Register" />-->
+<!--			<class name="com.nopcommerce.share.NopCommerce_01_Register" /> -->
+<!--			<class name="com.nopcommerce.share.NopCommerce_02_Login" />-->
+<!--			<class name="com.nopcommerce.share.NopCommerce_03_MyAccount" />-->
+<!--			<class name="com.nopcommerce.share.NopCommerce_04_Search_AdvancedSearch" />-->
+<!--			<class name="com.nopcommerce.share.NopCommerce_05_Sort_Display_Paging" />-->
+<!--			<class name="com.nopcommerce.share.NopCommerce_06_Wishlist_Compare_RecentReview" />-->
+<!--			<class name="com.nopcommerce.share.NopCommerce_07_Order" />-->
+		</classes>
+	</test>
+
+<!--<test name="Run On Firefox">
+	<parameter name="browser" value="firefox" />
+	<classes>
+		<class name="com.nopcommerce.account.Level_25_Data_Excel" />
+	</classes>
+</test>
+
+<test name="Run On Edge">
+	<parameter name="browser" value="Edge" />
+	<classes>
+		<class name="com.nopcommerce.account.Level_15_Assert_Verify" />
+	</classes>
+</test>  -->
+</suite> 

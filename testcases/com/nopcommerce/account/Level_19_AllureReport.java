@@ -48,7 +48,7 @@ public class Level_19_AllureReport extends BaseTest {
 	@Test
 	public void User_01_Register_Validate() {
 
-		Assert.assertFalse(homePage.isRegisterLinkDisplayed());
+		Assert.assertTrue(homePage.isRegisterLinkDisplayed());
 
 		registerPage = homePage.clickToRegisterLink();
 
@@ -56,7 +56,7 @@ public class Level_19_AllureReport extends BaseTest {
 
 		Assert.assertEquals(registerPage.getFirstNameErrorText(), "First name is required.");
 
-		Assert.assertEquals(registerPage.getLastNameErrorText(), "Last name is required");
+		Assert.assertEquals(registerPage.getLastNameErrorText(), "Last name is required.");
 
 	}
 

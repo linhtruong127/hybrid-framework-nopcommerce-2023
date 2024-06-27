@@ -929,3 +929,5 @@ Session ID: 2e401395-edf0-4db4-9db4-54dac8c9943b
 [20-11-2023 11:14:14.762 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - Driver instance name = chromedriver: chrome on windows (780fea9c36f5bcda03df843213927ae7)
 [21-11-2023 09:54:59.152 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - OS name = windows 10
 [21-11-2023 09:54:59.165 INFO com.nopcommerce.admin.NopCommerce_08_Admin] - Driver instance name = chromedriver: chrome on windows (df6c341416f01e72c3ac35155cf49473)
+[11-04-2024 14:59:55.542 INFO com.nopcommerce.account.Level_22_Close_Browser] - OS name = windows 10
+[11-04-2024 14:59:55.565 INFO com.nopcommerce.account.Level_22_Close_Browser] - Cannot invoke "Object.toString()" because "this.driver" is null

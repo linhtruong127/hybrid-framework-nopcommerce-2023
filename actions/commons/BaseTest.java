@@ -5,8 +5,8 @@ import java.io.IOException;
 import java.time.Duration;
 import java.util.Random;
 
-import org.apache.logging.log4j.Logger;
 import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.Dimension;
 import org.openqa.selenium.Point;
 import org.openqa.selenium.WebDriver;
@@ -112,9 +112,63 @@ public class BaseTest {
 
 	}
 
+	protected WebDriver getBrowserEnvironment(String browserName, String serverName) {
+
+		BrowserList browser = BrowserList.valueOf(browserName.toUpperCase());
+
+		switch (browser) {
+		case FIREFOX:
+
+			driver = new FirefoxDriver();
+			break;
+		case CHROME:
+			driver = new ChromeDriver();
+			break;
+		case EDGE:
+			driver = new EdgeDriver();
+			break;
+
+		default:
+			throw new RuntimeException("Browser is invalid.");
+		}
+
+		driver.manage().window().setPosition(new Point(0, 0));
+		driver.manage().window().setSize(new Dimension(1920, 1080));
+
+		driver.manage().window().maximize();
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(GlobalConstants.LONG_TIMEOUT));
+		driver.get(getUrlByServerName(serverName));
+		return driver;
+
+	}
+
+	private String getUrlByServerName(String serverName) {
+		ServerList server = ServerList.valueOf(serverName.toUpperCase());
+		switch (server) {
+		case DEV:
+			serverName = "https://demo.nopcommerce.com/";
+			break;
+		case STAGING:
+			serverName = "https://staging.nopcommerce.com/";
+			break;
+		case QAT:
+			serverName = "https://qat.nopcommerce.com/";
+			break;
+
+		default:
+			new IllegalArgumentException("Unexpected value:" + serverName);
+		}
+		return serverName;
+	}
+
 	public String getEmailRandom() {
 		Random rand = new Random();
-		return "john" + rand.nextInt(999) + "@kennedy.us";
+		return "john" + rand.nextInt(9999) + "@kennedy.us";
+	}
+
+	public String getEmailRandom(String prefix) {
+		Random rand = new Random();
+		return prefix + rand.nextInt(9999) + "@kennedy.us";
 	}
 
 	protected boolean verifyTrue(boolean condition) {
@@ -229,6 +283,7 @@ public class BaseTest {
 			log.info(e.getMessage());
 		} finally {
 			try {
+				@SuppressWarnings("deprecation")
 				Process process = Runtime.getRuntime().exec(cmd);
 				process.waitFor();
 			} catch (IOException e) {

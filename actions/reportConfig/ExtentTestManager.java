@@ -10,10 +10,12 @@ public class ExtentTestManager {
 	static Map<Integer, ExtentTest> extentTestMap = new HashMap<Integer, ExtentTest>();
 	static ExtentReports extent = ExtentManager.createExtentReports();
 
+	@SuppressWarnings("deprecation")
 	public static synchronized ExtentTest getTest() {
 		return extentTestMap.get((int) Thread.currentThread().getId());
 	}
 
+	@SuppressWarnings("deprecation")
 	public static synchronized ExtentTest startTest(String testName, String desc) {
 		ExtentTest test = extent.createTest(testName, desc);
 		extentTestMap.put((int) Thread.currentThread().getId(), test);

@@ -5,28 +5,29 @@
 	<listeners>
 		<listener class-name="commons.MethodListener" />
 		<listener class-name="reportConfig.AllureTestListener" />
-<!-- 	<listener class-name="org.uncommons.reportng.HTMLReporter" />
-		<listener class-name="org.uncommons.reportng.JUnitXMLReporter" /> -->	
+		<listener class-name="org.uncommons.reportng.HTMLReporter" />
+		<listener class-name="org.uncommons.reportng.JUnitXMLReporter" />
 	</listeners>
 	
 	<test name="Run On Chrome" preserve-order="true">
 		<parameter name="browser" value="chrome" />
 		<classes>
-			<class name="com.nopcommerce.share.Common_Register" />
-			<!--<class name="com.nopcommerce.share.NopCommerce_01_Register" /> 
-			<class name="com.nopcommerce.share.NopCommerce_02_Login" />-->
-			<class name="com.nopcommerce.share.NopCommerce_03_MyAccount" />
-		<!--<class name="com.nopcommerce.share.NopCommerce_04_Search_AdvancedSearch" />
-			<class name="com.nopcommerce.share.NopCommerce_05_Sort_Display_Paging" />
-			<class name="com.nopcommerce.share.NopCommerce_06_Wishlist_Compare_RecentReview" />-->
-			<class name="com.nopcommerce.share.NopCommerce_07_Order" />
+			<class name="com.nopcommerce.account.Level_25_Data_Excel" />
+<!--			<class name="com.nopcommerce.share.Common_Register" />-->
+<!--			<class name="com.nopcommerce.share.NopCommerce_01_Register" /> -->
+<!--			<class name="com.nopcommerce.share.NopCommerce_02_Login" />-->
+<!--			<class name="com.nopcommerce.share.NopCommerce_03_MyAccount" />-->
+<!--			<class name="com.nopcommerce.share.NopCommerce_04_Search_AdvancedSearch" />-->
+<!--			<class name="com.nopcommerce.share.NopCommerce_05_Sort_Display_Paging" />-->
+<!--			<class name="com.nopcommerce.share.NopCommerce_06_Wishlist_Compare_RecentReview" />-->
+<!--			<class name="com.nopcommerce.share.NopCommerce_07_Order" />-->
 		</classes>
 	</test>
 
 <!--<test name="Run On Firefox">
 	<parameter name="browser" value="firefox" />
 	<classes>
-		<class name="com.nopcommerce.account.Level_17_ReportNG" />
+		<class name="com.nopcommerce.account.Level_25_Data_Excel" />
 	</classes>
 </test>
 
